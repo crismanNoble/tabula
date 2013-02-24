@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.bookTitle {
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 36px;
+	font-style: italic;
+	margin: 0 0 0 20px;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.coverImage {
+	width: 300px;
+}
+
+.bookArea {
+	margin: 30px auto;
+	width: 600px;
+	position: relative;
+}
+
+.author {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+	margin: 5px 0 0 20px;
+	display: inline-block;
+}
+
+.divider {
+	margin-left: 18px;
+	border-top: 1px solid #333;
+	width: 282px;
+	float: left;
+	margin-top: 6px;
+	opacity: .6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.bookDescription {
+	padding-left: 20px;
+	margin: 0;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: Apollo;
+
+}
+
+.bookInfo {
+	width: 300px;
+	position: relative;
+	display: inline-block;
+	position: absolute;
+	left: 300px;
+	min-height: 394px;
+	margin-bottom: 30px;
+	clear:both;
+}
+
+.bookNav {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	margin: 0;
+	color: #ccc;
+	font-style: italic;
+	font-family: Apollo;
+	text-decoration: none;
+}
+
+.bookNavLink {
+	color: #666;
+	opacity: .6;
+	text-decoration: none;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.bookNavLink:hover {
+	opacity: 1;
+}
+
+.externalLink {
+	text-decoration: none;
+	color: rgb(100, 9, 100);
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+.externalLink:hover {
+	text-decoration: underline;
+}
+
+.tags {
+	text-decoration: none;
+	color: rgb(100, 9, 100);
+}
+
+.numberLinks, .subtleLink {
+	text-decoration: none;
+	color: #333;
+}
+
+.faded {
+	opacity: .6;
+}
+
+.bookDescription:last {
+	margin-bottom: 30px;
+}
+
+.header {
+	height: 20px;
+	background: #ccc;
+	color: #f9f9f9;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: Apollo;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 16px;
+	padding-left: 20px;
+	padding-top: 2px;
+
+		-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+
+}
+
+.header:hover {
+	color: #f9f9f9;
+}
+
+.bookBullet {
+	position: absolute;
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	background: #f9f9f9;
+		border: 1px solid #ccc;
+	font-size: 20px;
+	margin-top: 4px;
+	-webkit-transition: background .3s linear;
+	-webkit-transition: border .3s linear;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.bookBullet:hover {
+	background: #ddd;
+	border: 1px solid #333;
+	margin-top: 4px;
+	overflow: visible;
+}
+
+.bookBullet.active {
+	background: #ddd;
+	border: 1px solid #333;
+	margin-top: 4px;
+}
+.hoverTitle {
+	min-width: 400px;
+	color: #666;
+	position: absolute;
+	top: 15px;
+	font-size: 12px;
+
+}
+
+.bookBullet:hover .hoverTitle {
+	opactiy: 1;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 4px;
+	text-align: center;
+	width: 100%;
+}
+
+</style>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+
+$(document).ready(function(){
+	$('.bookBullet').click(function(){
+
+		$('.bookBullet').each(function(){
+			$(this).removeClass('active');
+		});
+
+		$(this).addClass('active');
+
+		$('.bookArea').fadeOut(500,function(){
+			$('.bookArea').fadeIn(700)
+		});
+	});
+});
+
+</script>
+</head>
+<body>
+	<div class="header">
+		2013
+		<div class="bookBullet" style="left:10%;">
+			<div class="hoverTitle">PHP the complete guide</div>
+		</div>
+		<div class="bookBullet" style="left:20%;">
+			<div class="hoverTitle">Javascript Patterns</div>
+		</div>
+		<div class="bookBullet" style="left:22%;">
+			<div class="hoverTitle">Beautiful Evidence</div>
+		</div>
+		<div class="bookBullet" style="left:23%;"></div>
+		<div class="bookBullet active" style="left:35%;"></div>
+		<div class="bookBullet" style="left:57%;"></div>
+		<div class="bookBullet" style="left:62%;"></div>
+		<div class="bookBullet" style="left:60%;"></div>
+		<div class="bookBullet" style="left:95%;"></div>
+	</div>
+	<div class="bookArea">
+		<img src="http://akamaicovers.oreilly.com/images/0636920028062/lrg.jpg" class="coverImage pull-left"/>
+		<div class="bookInfo pull-left">
+			<h2 class="bookTitle"><a href="#" class="numberLinks">Aquatic Life Hat</a></h2>
+			<h3 class="author"><a href="#" class="numberLinks">Jayne Darcy</a>, <a href="#" class="numberLinks">O'Reilly Media</a></h3>
+			<div class="divider"></div>
+			<p class="bookDescription"><a href="#" class="numberLinks">Library of Congress: 0486456765</a></p>
+			<p class="bookDescription"><a href="#" class="numberLinks">ISBN-13: 978-0486456768</a></p>
+			<p class="bookDescription"><a href="#" class="numberLinks">Open Library: 389</a></p>
+
+			<br/>
+			<p class="bookDescription">read: 2013-02-19</p>
+			<p class="bookDescription">pages: 389</p>
+			<br/>
+			<p class="bookDescription">Lorem Ipsum and all kinds of plholder. Lorem Ips all kinds of placeholder. Lorem Ipsum and allaceholder. Lorem Ipsum and</p>
+			<br/>
+			<p class="bookDescription">Rating: ***<span class="faded">**</span>
+			<br/>
+			<p class="bookDescription">subjects: <a href="#" class="tags">programming</a>, <a href="#" class="tags">javascript</a>, <a href="#" class="tags">d3</a></p>
+			<br/>
+			<p class="bookDescription">Links: <a href="#" class="externalLink">Homepage</a>, <a href="#" class="externalLink">Amazon</a>, <a href="#" class="externalLink">TPB</a>, <a href="#" class="externalLink">Publisher</a></p>
+			<br/><br/>
+			<p class="bookNav"><a href="#" class="bookNavLink">prev</a> / <a href="#" class="bookNavLink">next</a></p>
+		</div>
+	</div>
+	<div class="footer">
+		<i><a href="#" class="subtleLink">crisnoble.com</a> x <a href="#" class="subtleLink">MKSHT</a></i> | <i><a href="#" class="subtleLink">About</a><i>
+	</div>
+</body>
+</html>
