@@ -202,9 +202,111 @@ body {
 	width: 100%;
 }
 
+#year, #publisher {
+	margin-top: 0px;
+}
 </style>
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+var bookData = [{
+	"title":{
+		"name":"The Lean Startup",
+		"link":"http://theleanstartup.com/"
+	},
+	"author":{
+		"name":"Eric Reis",
+		"link":"http://www.startuplessonslearned.com/"
+	},
+	"publisher":{
+		"name":"Crown Business",
+		"link":"http://crownpublishing.com/imprint/crown-business/"
+	},
+	"year":"2011",
+	"cover":"./covers/leanStartup.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"978-0-307-88789-4"
+		},{
+			"name":"Call Number",
+			"number":"HD62.5.R545 2011"
+		},{
+			"name":"Open Library",
+			"number":"OL24982481M",
+			"link":"http://openlibrary.org/works/OL16086010W/The_Lean_Startup"
+		}
+	],
+	"pages":"336",
+	"read":"2013-01-11",
+	"subjects":[
+		"Business",
+		"Non-Fiction",
+		"Entrepreneurship"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://theleanstartup.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/"
+		},{
+			"title":"Google Books",
+			"link":"http://books.google.com/books?id=tvfyz-4JILwC&printsec=frontcover&dq=lean+startup&hl=en&sa=X&ei=VlcqUajRE6bQ2wXzp4DACw&ved=0CDwQ6AEwAA#v=onepage&q&f=false"
+		},{
+			"title":"Wikipedia",
+			"link":"http://en.wikipedia.org/wiki/The_Lean_Startup:_How_Today%27s_Entrepreneurs_Use_Continuous_Innovation_to_Create_Radically_Successful_Businesses"
+		}
+	],
+	"rating":"4",
+	"description":"This is the one, maybe two sentance description"
+},{
+	"title":{
+		"name":"Visual Complexity",
+		"link":"http://www.visualcomplexity.com/vc/book/"
+	},
+	"author":{
+		"name":"Manuel Lima",
+		"link":"http://www.mslima.com/myhome.cfm"
+	},
+	"publisher":{
+		"name":"Princeton Architectural Press",
+		"link":"http://papress.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/visualComplexity.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"9781568989365"
+		},{
+			"name":"Open Library",
+			"number":"OL25075320M"
+		}
+	],
+	"pages":"272",
+	"read":"2013-02-10",
+	"subjects":[
+		"information",
+		"design"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
+		},{
+			"title":"Publisher",
+			"link":"http://papress.com/html/book.details.page.tpl?isbn=9781568989365"
+		}
+	],
+	"rating":"4",
+	"description":"Wonderful book about the past, present and future of man's attempts to document and display information."
+}];
+</script>
 <script>
 
 $(document).ready(function(){
@@ -216,54 +318,164 @@ $(document).ready(function(){
 
 		$(this).addClass('active');
 
+		bookNumber = $(this).attr('data-bookNumber');
+
 		$('.bookArea').fadeOut(500,function(){
+			createBook(bookNumber)
 			$('.bookArea').fadeIn(700)
 		});
 	});
+
+	createBook(0);
+
 });
+
+var bookNumber = 0;
+
+function clearBook(){
+	$('#numbers').html('');
+	$('#links').html('');
+}
+
+function createBook(number){
+	clearBook();
+
+	var coverImage = bookData[number].cover;
+	$('.coverImage').attr('src',coverImage);
+
+	var title = bookData[number].title.name;
+	var titleLink = bookData[number].title.link;
+
+	$('#title').text(title);
+	$('#title').attr('href', titleLink);
+
+	var author = bookData[number].author.name;
+	var authorLink = bookData[number].author.link;
+
+	$('#author').text(author);
+	$('#author').attr('href',authorLink);
+
+	var publisher = bookData[number].publisher.name;
+	var publisherLink = bookData[number].publisher.link;
+
+	$('#publisher').text(publisher);
+	$('#publisher').attr('href',publisherLink);
+
+	var year = bookData[number].year;
+	$('#year').text(year);
+
+	var numbers = bookData[number].numbers;
+	for(var i = 0; i < numbers.length; i++){
+		var name = numbers[i].name;
+		var numberN = numbers[i].number;
+		var link = numbers[i].link;
+
+		var pTag = $(document.createElement('p'));
+		pTag.addClass('bookDescription');
+
+		if(link){
+			var aTag =  $(document.createElement('a'));
+			aTag.addClass('numberLinks');
+			aTag.attr('href',link);
+			aTag.text(name + ': ' + numberN);
+			pTag.append(aTag);
+		} else {
+			pTag.text(name + ': ' + numberN);
+		}
+
+		$('#numbers').append(pTag);
+	}
+
+	var readDate = bookData[number].read;
+	$('#readDate').text('read: ' + readDate);
+
+	var pages = bookData[number].pages;
+	$('#pages').text('pages: ' + pages);
+
+	var description = bookData[number].description;
+	$('#description').text(description);
+
+	var rating = bookData[number].rating;
+
+	var stars = parseInt(rating);
+	var starsFaded = 5 - stars;
+	var starString = '', fadedString = '';
+
+	for (var j = 0; j < stars; j++) {
+		starString += '*';
+	}
+	for (var k = 0; k <starsFaded; k++) {
+		fadedString += '*';
+	}
+
+	rating = 'rating: ' + starString + '<span class="faded">' + fadedString + '</span>';
+	$('#rating').html(rating);
+
+	var tags = bookData[number].subjects;
+	var tagString = 'subjects: ';
+
+	for (var k = 0; k < tags.length; k++) {
+		if (k == tags.length - 1){
+			tagString += tags[k];
+		} else {
+			tagString += tags[k] + ', ';
+		}
+	}
+	$('#tags').text(tagString);
+
+	var links = bookData[number].links;
+
+	$('#links').append('Links: ');
+
+	for (var l = 0; l < links.length; l++){
+
+		var aTag = $(document.createElement('a'));
+		aTag.text(links[l].title);
+		aTag.attr('href',links[l].link);
+		aTag.addClass('externalLink');
+
+		$('#links').append(aTag);
+
+		if (l < links.length - 1 ) {
+			$('#links').append(', ');
+		}
+
+	}
+	
+}
 
 </script>
 </head>
 <body>
 	<div class="header">
 		2013
-		<div class="bookBullet" style="left:10%;">
+		<div class="bookBullet" data-booknumber="0" style="left:10%;">
 			<div class="hoverTitle">PHP the complete guide</div>
 		</div>
-		<div class="bookBullet" style="left:20%;">
+		<div class="bookBullet" data-booknumber="1" style="left:20%;">
 			<div class="hoverTitle">Javascript Patterns</div>
 		</div>
-		<div class="bookBullet" style="left:22%;">
-			<div class="hoverTitle">Beautiful Evidence</div>
-		</div>
-		<div class="bookBullet" style="left:23%;"></div>
-		<div class="bookBullet active" style="left:35%;"></div>
-		<div class="bookBullet" style="left:57%;"></div>
-		<div class="bookBullet" style="left:62%;"></div>
-		<div class="bookBullet" style="left:60%;"></div>
-		<div class="bookBullet" style="left:95%;"></div>
 	</div>
 	<div class="bookArea">
-		<img src="http://akamaicovers.oreilly.com/images/0636920028062/lrg.jpg" class="coverImage pull-left"/>
+		<img src="" class="coverImage pull-left"/>
 		<div class="bookInfo pull-left">
-			<h2 class="bookTitle"><a href="#" class="numberLinks">Aquatic Life Hat</a></h2>
-			<h3 class="author"><a href="#" class="numberLinks">Jayne Darcy</a>, <a href="#" class="numberLinks">O'Reilly Media</a></h3>
+			<h2 class="bookTitle"><a href="#" class="numberLinks" id="title"></a></h2>
+			<h3 class="author"><a href="#" class="numberLinks" id="author"></a><br/><a href="#" class="numberLinks" id="publisher"></a></h3>
+			<br/><h3 class="author" id="year"></h3>
 			<div class="divider"></div>
-			<p class="bookDescription"><a href="#" class="numberLinks">Library of Congress: 0486456765</a></p>
-			<p class="bookDescription"><a href="#" class="numberLinks">ISBN-13: 978-0486456768</a></p>
-			<p class="bookDescription"><a href="#" class="numberLinks">Open Library: 389</a></p>
-
+			<div id="numbers">
+			</div>
 			<br/>
-			<p class="bookDescription">read: 2013-02-19</p>
-			<p class="bookDescription">pages: 389</p>
+			<p class="bookDescription" id="readDate"></p>
+			<p class="bookDescription" id="pages"></p>
 			<br/>
-			<p class="bookDescription">Lorem Ipsum and all kinds of plholder. Lorem Ips all kinds of placeholder. Lorem Ipsum and allaceholder. Lorem Ipsum and</p>
+			<p class="bookDescription" id="description"></p>
 			<br/>
-			<p class="bookDescription">Rating: ***<span class="faded">**</span>
+			<p class="bookDescription" id="rating"></p>
 			<br/>
-			<p class="bookDescription">subjects: <a href="#" class="tags">programming</a>, <a href="#" class="tags">javascript</a>, <a href="#" class="tags">d3</a></p>
+			<p class="bookDescription" id="tags"></p>
 			<br/>
-			<p class="bookDescription">Links: <a href="#" class="externalLink">Homepage</a>, <a href="#" class="externalLink">Amazon</a>, <a href="#" class="externalLink">TPB</a>, <a href="#" class="externalLink">Publisher</a></p>
+			<p class="bookDescription" id="links"></p>
 			<br/><br/>
 			<p class="bookNav"><a href="#" class="bookNavLink">prev</a> / <a href="#" class="bookNavLink">next</a></p>
 		</div>

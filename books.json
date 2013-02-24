@@ -1,0 +1,90 @@
+[{
+	"title":{
+		"name":"The Lean Startup",
+		"link":"http://theleanstartup.com/"
+	},
+	"author":{
+		"name":"Eric Reis",
+		"link":"http://www.startuplessonslearned.com/"
+	},
+	"publisher":{
+		"name":"Crown Business",
+		"link":"http://crownpublishing.com/imprint/crown-business/"
+	},
+	"year":"2011",
+	"cover":"./covers/leanStartup.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"978-0-307-88789-4"
+		},{
+			"name":"Call Number",
+			"number":"HD62.5.R545 2011"
+		},{
+			"name":"Open Library",
+			"number":"OL24982481M",
+			"link":"http://openlibrary.org/works/OL16086010W/The_Lean_Startup"
+		}
+	],
+	"pages":"336",
+	"read":"2013-01-11",
+	"subjects":[
+		"Business",
+		"Non-Fiction",
+		"Entrepreneurship"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://theleanstartup.com/"
+		},{
+			"title":"Publisher",
+			"linke":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/"
+		},{
+			"title":"Google Books",
+			"link":"http://books.google.com/books?id=tvfyz-4JILwC&printsec=frontcover&dq=lean+startup&hl=en&sa=X&ei=VlcqUajRE6bQ2wXzp4DACw&ved=0CDwQ6AEwAA#v=onepage&q&f=false"
+		},{
+			"title":"Wikipedia",
+			"link":"http://en.wikipedia.org/wiki/The_Lean_Startup:_How_Today%27s_Entrepreneurs_Use_Continuous_Innovation_to_Create_Radically_Successful_Businesses"
+		}
+	],
+	"rating":"4",
+	"description":"This is the one, maybe two sentance description"
+},{
+	"title":{
+		"name":"Visual Complexity",
+		"link":"http://www.visualcomplexity.com/vc/book/"
+	},
+	"author":{
+		"name":"Manuel Lima",
+		"link":"http://www.mslima.com/myhome.cfm"
+	},
+	"publisher":{
+		"name":"Princeton Architectural Press",
+		"link":"http://papress.com/"
+	},
+	"year":"2011",
+	"cover":"",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"9781568989365"
+		}
+	],
+	"pages":"272",
+	"read":"2013-02-10",
+	"links":[
+		{
+			"name":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
+		},{
+			"name":"Publisher",
+			"link":"http://papress.com/html/book.details.page.tpl?isbn=9781568989365"
+		}
+	],
+	"rating":"4",
+	"description":"Wonderful book about the past, present and future of man's attempts to document and display information."
+}]
