@@ -28,6 +28,7 @@ body {
 
 .coverImage {
 	width: 300px;
+	box-shadow: 1px 1px 5px #ccc, -1px -1px 5px #ccc;
 }
 
 .bookArea {
@@ -263,7 +264,7 @@ var bookData = [{
 		}
 	],
 	"rating":"4",
-	"description":"This is the one, maybe two sentance description"
+	"description":"Eric Reis tells his story of IMVU's success and shares some pains along the way."
 },{
 	"title":{
 		"name":"Visual Complexity",
@@ -310,6 +311,9 @@ var bookData = [{
 <script>
 
 $(document).ready(function(){
+
+	createBullets();
+
 	$('.bookBullet').click(function(){
 
 		$('.bookBullet').each(function(){
@@ -318,19 +322,78 @@ $(document).ready(function(){
 
 		$(this).addClass('active');
 
-		bookNumber = $(this).attr('data-bookNumber');
+		bookNumber = $(this).attr('data-booknumber');
 
 		$('.bookArea').fadeOut(500,function(){
-			createBook(bookNumber)
-			$('.bookArea').fadeIn(700)
+			createBook(bookNumber);
+			$('.bookArea').fadeIn(700);
 		});
 	});
 
+	
+
 	createBook(0);
+
+	$('.bookNavLink').click(function(event){
+		event.preventDefault();
+		var newBookNumber = parseInt($(this).attr('data-booknumber'));
+		
+		if(newBookNumber < 0 || newBookNumber == bookData.length) {
+			return false;
+		}
+
+		bookNumber = newBookNumber;
+
+		$('.bookArea').fadeOut(500,function(){
+			createBook(bookNumber);
+			$('.bookArea').fadeIn(700);
+		});
+
+		$('.bookBullet').each(function(){
+			$(this).removeClass('active');
+		});
+
+		$('.header [data-booknumber="'+bookNumber+'"]').addClass('active');
+	});
+
+	$('.header [data-booknumber="'+bookNumber+'"]').addClass('active');
 
 });
 
 var bookNumber = 0;
+
+function createBullets(){
+	for(var i = 0; i < bookData.length; i++) {
+
+		var bookTitle = bookData[i].title.name;
+		var dateRead = bookData[i].read;
+
+		var yr = dateRead.split('-')[0];
+		var mo = dateRead.split('-')[1] - 1;
+		var da = dateRead.split('-')[2];
+
+		var start = new Date(2013, 0, 0);
+		var date = new Date(yr,mo,da);
+
+		var diff = Math.floor((date - start )/(1000 * 60 * 60 * 24));
+		var percent = Math.floor(1000*diff/365)/10;
+
+		percent = percent*0.9 + 5;
+
+		var bullet = $(document.createElement('div'));
+		bullet.addClass('bookBullet');
+		bullet.attr('data-booknumber',i);
+		bullet.attr('style','left:'+percent+'%');
+
+		var title = $(document.createElement('div'));
+		title.addClass('hoverTitle');
+		title.text(bookTitle);
+
+		bullet.append(title);
+
+		$('#timeline').append(bullet);
+	}
+}
 
 function clearBook(){
 	$('#numbers').html('');
@@ -434,6 +497,8 @@ function createBook(number){
 		aTag.attr('href',links[l].link);
 		aTag.addClass('externalLink');
 
+
+
 		$('#links').append(aTag);
 
 		if (l < links.length - 1 ) {
@@ -441,20 +506,33 @@ function createBook(number){
 		}
 
 	}
+
+	updateLinks();
 	
+}
+
+function updateLinks() {
+	bookNumber = parseInt(bookNumber);
+	$('#next').attr('data-booknumber', bookNumber + 1);
+	if (bookNumber + 1 > bookData.length) {
+		$('#next').addClass('faded');
+	} else {
+		$('#next').removeClass('faded');
+	}
+	$('#prev').attr('data-booknumber', bookNumber - 1);
+	if (bookNumber - 1 < 0) {
+		$('#prev').addClass('faded');
+	} else {
+		$('#prev').removeClass('faded');
+	}
 }
 
 </script>
 </head>
 <body>
-	<div class="header">
+	<div class="header" id="timeline">
 		2013
-		<div class="bookBullet" data-booknumber="0" style="left:10%;">
-			<div class="hoverTitle">PHP the complete guide</div>
-		</div>
-		<div class="bookBullet" data-booknumber="1" style="left:20%;">
-			<div class="hoverTitle">Javascript Patterns</div>
-		</div>
+
 	</div>
 	<div class="bookArea">
 		<img src="" class="coverImage pull-left"/>
@@ -477,7 +555,7 @@ function createBook(number){
 			<br/>
 			<p class="bookDescription" id="links"></p>
 			<br/><br/>
-			<p class="bookNav"><a href="#" class="bookNavLink">prev</a> / <a href="#" class="bookNavLink">next</a></p>
+			<p class="bookNav"><a href="#" class="bookNavLink" id="prev">prev</a> / <a href="#" class="bookNavLink" id="next">next</a></p>
 		</div>
 	</div>
 	<div class="footer">
