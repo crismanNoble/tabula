@@ -236,8 +236,13 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 
 $(document).ready(function(){
-	$.getJSON('./books.json',function(data){bookData = data});
-	
+	$.getJSON('./books.json',function(data){
+		bookData = data
+		doWork();
+	});
+});
+
+function doWork(){
 	createBullets();
 
 	$('.about').hide();
