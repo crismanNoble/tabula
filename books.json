@@ -1,0 +1,164 @@
+[{
+	"title":{
+		"name":"The Lean Startup",
+		"link":"http://theleanstartup.com/"
+	},
+	"author":{
+		"name":"Eric Reis",
+		"link":"http://www.startuplessonslearned.com/"
+	},
+	"publisher":{
+		"name":"Crown Business",
+		"link":"http://crownpublishing.com/imprint/crown-business/"
+	},
+	"year":"2011",
+	"cover":"./covers/leanStartup.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"978-0-307-88789-4"
+		},{
+			"name":"Call Number",
+			"number":"HD62.5.R545 2011"
+		},{
+			"name":"Open Library",
+			"number":"OL24982481M",
+			"link":"http://openlibrary.org/works/OL16086010W/The_Lean_Startup"
+		}
+	],
+	"pages":"336",
+	"read":"2013-01-11",
+	"subjects":[
+		"Business",
+		"Non-Fiction",
+		"Entrepreneurship"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://theleanstartup.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/"
+		},{
+			"title":"Google Books",
+			"link":"http://books.google.com/books?id=tvfyz-4JILwC&printsec=frontcover&dq=lean+startup&hl=en&sa=X&ei=VlcqUajRE6bQ2wXzp4DACw&ved=0CDwQ6AEwAA#v=onepage&q&f=false"
+		},{
+			"title":"Wikipedia",
+			"link":"http://en.wikipedia.org/wiki/The_Lean_Startup:_How_Today%27s_Entrepreneurs_Use_Continuous_Innovation_to_Create_Radically_Successful_Businesses"
+		}
+	],
+	"rating":"4",
+	"description":"Eric Reis tells his story of IMVU's success and shares some pains along the way. The key takeaway is to Bulid, Measure, Learn, and do so as fast as possible."
+},{
+	"title":{
+		"name":"UX Design For Startups",
+		"link":"http://uxpin.com/ux-design-for-startups.html"
+	},
+	"author":{
+		"name":"Marcin Treder",
+		"link":"https://twitter.com/marcintreder"
+	},
+	"publisher":{
+		"name":".net / UXPIN",
+		"link":"http://uxpin.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/uxDesign.png",
+	"numbers":[],
+	"pages":"127",
+	"read":"2013-01-30",
+	"subjects":[
+		"UX","design"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://uxpin.com/ux-design-for-startups.html"
+		}
+	],
+	"rating":"2",
+	"description":"Very short read on basics of UX. Great for beginners."
+},{
+	"title":{
+		"name":"Visual Complexity",
+		"link":"http://www.visualcomplexity.com/vc/book/"
+	},
+	"author":{
+		"name":"Manuel Lima",
+		"link":"http://www.mslima.com/myhome.cfm"
+	},
+	"publisher":{
+		"name":"Princeton Architectural Press",
+		"link":"http://papress.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/visualComplexity.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"9781568989365"
+		},{
+			"name":"Open Library",
+			"number":"OL25075320M"
+		}
+	],
+	"pages":"272",
+	"read":"2013-02-10",
+	"subjects":[
+		"Graphic methods", "Communication in science", "Visual communication"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
+		},{
+			"title":"Publisher",
+			"link":"http://papress.com/html/book.details.page.tpl?isbn=9781568989365"
+		}
+	],
+	"rating":"4",
+	"description":"Wonderful book about the past, present and future of man's attempts to document and display information."
+},{
+	"title":{
+		"name":"The Information Diet",
+		"link":"http://www.informationdiet.com/"
+	},
+	"author":{
+		"name":"Clay A. Johnson",
+		"link":"#"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"#"
+	},
+	"year":"2012",
+	"cover":"./covers/information.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-1-4493-0468-3"
+		}
+	],
+	"pages":"160",
+	"read":"2013-02-11",
+	"subjects":[
+		"non-fiction","information overload"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://www.informationdiet.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920019978.do"
+		},{
+			"title":"amazon",
+			"link":"http://www.amazon.com/gp/product/1449304680?ie=UTF8&tag=clayworld-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=1449304680&ref_=sr_1_1&qid=1319838673&sr=8-1"
+		}
+	],
+	"rating":"4",
+	"description":"Clay Johnson offers his view on how we, as a society, can take control of the quality of information that we consume. Ending on a hopeful high note, he pleads for developers to spend more time making the world a better place."
+}]
