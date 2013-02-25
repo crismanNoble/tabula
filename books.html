@@ -10,6 +10,9 @@ body {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
+html, body {
+}
+
 .bookTitle {
 	font-weight: normal;
 	font-size: 36px;
@@ -181,6 +184,7 @@ body {
 	background: #ddd;
 	border: 1px solid #333;
 	margin-top: 4px;
+	z-index:10;
 }
 .hoverTitle {
 	min-width: 400px;
@@ -196,7 +200,7 @@ body {
 }
 
 .footer {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	padding-bottom: 4px;
 	text-align: center;
@@ -206,9 +210,27 @@ body {
 #year, #publisher {
 	margin-top: 0px;
 }
+
+.copyleft {
+	font-family: sans-serif;
+	margin-right: 4px;
+	display: inline-block;
+-webkit-transform: rotate(-180deg);
+-moz-transform: rotate(-180deg);
+-o-transform: rotate(-180deg);
+-ms-transform: rotate(-180deg);
+transform: rotate(-180deg);
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.about {
+	display: block;
+	font-size: 14px;
+	font-family: Apollo;
+}
 </style>
 
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.js"></script>
 <script>
 var bookData = [{
 	"title":{
@@ -264,7 +286,36 @@ var bookData = [{
 		}
 	],
 	"rating":"4",
-	"description":"Eric Reis tells his story of IMVU's success and shares some pains along the way."
+	"description":"Eric Reis tells his story of IMVU's success and shares some pains along the way. The key takeaway is to Bulid, Measure, Learn, and do so as fast as possible."
+},{
+	"title":{
+		"name":"UX Design For Startups",
+		"link":"http://uxpin.com/ux-design-for-startups.html"
+	},
+	"author":{
+		"name":"Marcin Treder",
+		"link":"https://twitter.com/marcintreder"
+	},
+	"publisher":{
+		"name":".net / UXPIN",
+		"link":"http://uxpin.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/uxDesign.png",
+	"numbers":[],
+	"pages":"127",
+	"read":"2013-01-30",
+	"subjects":[
+		"UX","design"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://uxpin.com/ux-design-for-startups.html"
+		}
+	],
+	"rating":"2",
+	"description":"Very short read on basics of UX. Great for beginners."
 },{
 	"title":{
 		"name":"Visual Complexity",
@@ -292,8 +343,7 @@ var bookData = [{
 	"pages":"272",
 	"read":"2013-02-10",
 	"subjects":[
-		"information",
-		"design"
+		"Graphic methods", "Communication in science", "Visual communication"
 	],
 	"links":[
 		{
@@ -306,6 +356,45 @@ var bookData = [{
 	],
 	"rating":"4",
 	"description":"Wonderful book about the past, present and future of man's attempts to document and display information."
+},{
+	"title":{
+		"name":"The Information Diet",
+		"link":"http://www.informationdiet.com/"
+	},
+	"author":{
+		"name":"Clay A. Johnson",
+		"link":"#"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"#"
+	},
+	"year":"2012",
+	"cover":"./covers/information.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-1-4493-0468-3"
+		}
+	],
+	"pages":"160",
+	"read":"2013-02-11",
+	"subjects":[
+		"non-fiction","information overload"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://www.informationdiet.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920019978.do"
+		},{
+			"title":"amazon",
+			"link":"http://www.amazon.com/gp/product/1449304680?ie=UTF8&tag=clayworld-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=1449304680&ref_=sr_1_1&qid=1319838673&sr=8-1"
+		}
+	],
+	"rating":"4",
+	"description":"Clay Johnson offers his view on how we, as a society, can take control of the quality of information that we consume. Ending on a hopeful high note, he pleads for developers to spend more time making the world a better place."
 }];
 </script>
 <script>
@@ -313,6 +402,21 @@ var bookData = [{
 $(document).ready(function(){
 
 	createBullets();
+
+	$('.about').hide();
+
+	$('#aboutLink').click(function(event){
+		event.preventDefault();
+		console.log('clicked about');
+		console.log(about);
+		if(about == false){
+			$('.about').slideDown();
+			about = true;
+		} else {
+			$('.about').slideUp();
+			about = false;
+		}
+	});
 
 	$('.bookBullet').click(function(){
 
@@ -360,7 +464,7 @@ $(document).ready(function(){
 
 });
 
-var bookNumber = 0;
+var bookNumber = 0, about = false;
 
 function createBullets(){
 	for(var i = 0; i < bookData.length; i++) {
@@ -559,7 +663,7 @@ function updateLinks() {
 		</div>
 	</div>
 	<div class="footer">
-		<i><a href="#" class="subtleLink">crisnoble.com</a> x <a href="#" class="subtleLink">MKSHT</a></i> | <i><a href="#" class="subtleLink">About</a><i>
+		<span class="copyleft">&copy;</span><i><a href="http://crisnoble.com" class="subtleLink">crisnoble.com</a> x <a href="http://mksht.crisnoble.com" class="subtleLink">MKSHT</a></i> | <i><a href="#" class="subtleLink" id="aboutLink">About</a></i><span class="about">This is another speed project brought to you by Cris Noble. Please <a href="https://github.com/crismanNoble/tabula" class="externalLink">view the code</a> or <a href="http://mksht.crisnoble.com/tabula" class="externalLink">read about the process</a>.</span>
 	</div>
 </body>
 </html>
