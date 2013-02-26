@@ -133,7 +133,7 @@
 	},
 	"publisher":{
 		"name":"O'Reilly Media",
-		"link":"#"
+		"link":"978-1-4493-2879-5"
 	},
 	"year":"2012",
 	"cover":"./covers/information.jpg",
@@ -161,4 +161,39 @@
 	],
 	"rating":"4",
 	"description":"Clay Johnson offers his view on how we, as a society, can take control of the quality of information that we consume. Ending on a hopeful high note, he pleads for developers to spend more time making the world a better place."
+},{"title":{
+		"name":"Getting Started with D3",
+		"link":"http://shop.oreilly.com/product/0636920025429.do"
+	},
+	"author":{
+		"name":"Mike Dewar",
+		"link":"http://mikedewar.org/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2012",
+	"cover":"./covers/d3.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-1-4493-0468-3"
+		}
+	],
+	"pages":"70",
+	"read":"2013-02-25",
+	"subjects":[
+		"programming","information visualization","d3.js"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920025429.do"
+		},{
+			"title":"amazon",
+			"link":"http://www.amazon.com/gp/product/1449328792/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449328792&linkCode=as2&tag=doonthwe-20"
+		}
+	],
+	"rating":"4",
+	"description":"After reading this book I finally am starting to understand d3.js, it is more amazing than I had thought."
 }]
