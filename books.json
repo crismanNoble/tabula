@@ -196,4 +196,40 @@
 	],
 	"rating":"4",
 	"description":"After reading this book I finally am starting to understand d3.js, it is more amazing than I had thought."
+},{
+	"title":{
+		"name":"Open Design Now",
+		"link":"http://www.opendesignnow.com/"
+	},
+	"author":{
+		"name":"Bas Van Abel, Lucas Evers, Roel Klaassen, Peter Troxler",
+		"link":"#"
+	},
+	"publisher":{
+		"name":"BIS publishers",
+		"link":"http://www.bispublishers.nl/"
+	},
+	"year":"2011",
+	"cover":"./covers/opendesign.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-90-63692599"
+		}
+	],
+	"pages":"320",
+	"read":"2013-03-09",
+	"subjects":[
+		"design","collaboration"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://www.opendesignnow.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://www.bispublishers.nl/bookpage.php?id=190"
+		}
+	],
+	"rating":"5",
+	"description":"This collection of case studies and essays is both encoraging and inspiring. A glimpse into the collaborative future of design."
 }]
