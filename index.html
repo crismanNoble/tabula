@@ -278,9 +278,10 @@ function doWork(){
 		});
 	});
 
-	
-
-	createBook(bookNumber);
+	var randomBook = Math.round(Math.random()*$('.bookBullet').length)-1;
+	console.log(randomBook);
+	createBook(randomBook);
+	bookNumber = randomBook;
 
 	$('.bookNavLink').click(function(event){
 		event.preventDefault();
@@ -308,7 +309,7 @@ function doWork(){
 
 };
 
-var bookNumber = Math.round(Math.random()*$('.bookBullet').length)-1, about = false, bookData;
+var bookNumber = 0, about = false, bookData;
 
 function createBullets(){
 	for(var i = 0; i < bookData.length; i++) {
