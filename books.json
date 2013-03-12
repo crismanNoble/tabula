@@ -262,14 +262,14 @@
 	],
 	"links":[
 		{
-			"title":"Publisher",
-			"link":"http://www.bispublishers.nl/bookpage.php?id=190"
-		},{
 			"title":"Google Books",
 			"link":"http://books.google.com/books?id=IkU8YgEACAAJ&dq=isbn:9781936719006&hl=&source=gbs_api"
 		},{
 			"title":"Powell's Bookstore",
 			"link":"http://www.powells.com/biblio/1-9781936719006-1"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/ASIN/1936719002/permissionmarket"
 		}
 	],
 	"rating":"5",
