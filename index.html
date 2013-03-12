@@ -280,7 +280,7 @@ function doWork(){
 
 	
 
-	createBook(Math.round(Math.random()*$('.bookBullet').length)-1);
+	createBook(bookNumber);
 
 	$('.bookNavLink').click(function(event){
 		event.preventDefault();
@@ -308,7 +308,7 @@ function doWork(){
 
 };
 
-var bookNumber = 0, about = false, bookData;
+var bookNumber = Math.round(Math.random()*$('.bookBullet').length)-1, about = false, bookData;
 
 function createBullets(){
 	for(var i = 0; i < bookData.length; i++) {
