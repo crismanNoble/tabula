@@ -232,4 +232,46 @@
 	],
 	"rating":"5",
 	"description":"This collection of case studies and essays is both encoraging and inspiring. A glimpse into the collaborative future of design."
+},{
+	"title":{
+		"name":"Poke The Box",
+		"link":"#"
+	},
+	"author":{
+		"name":"Seth Godin",
+		"link":"http://www.sethgodin.com/sg/"
+	},
+	"publisher":{
+		"name":"The Domino Project",
+		"link":"http://www.thedominoproject.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/poke.jpg",
+	"numbers":[
+		{"name":"ISBN-13",
+		"number":"9781936719006"
+		},{
+			"name":"ISBN-10",
+			"number":"1936719002"
+		}
+	],
+	"pages":"85",
+	"read":"2013-03-11",
+	"subjects":[
+		"business","starting"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://www.bispublishers.nl/bookpage.php?id=190"
+		},{
+			"title":"Google Books",
+			"link":"http://books.google.com/books?id=IkU8YgEACAAJ&dq=isbn:9781936719006&hl=&source=gbs_api"
+		},{
+			"title":"Powell's Bookstore",
+			"link":"http://www.powells.com/biblio/1-9781936719006-1"
+		}
+	],
+	"rating":"5",
+	"description":"This is a maifesto for starting, to fail and to learn. Poke the box and see what happens."
 }]
