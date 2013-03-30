@@ -274,4 +274,81 @@
 	],
 	"rating":"5",
 	"description":"This is a maifesto for starting, to fail and to learn. Poke the box and see what happens."
+},{
+	"title":{
+		"name":"Node for Front-End Developers",
+		"link":"http://shop.oreilly.com/product/0636920023258.do"
+	},
+	"author":{
+		"name":"Garann Means",
+		"link":"http://garann.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2012",
+	"cover":"./covers/node.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"1-4493-1883-5"
+		},{
+			"name":"ISBN13",
+			"number":"978-1-4493-1883-3"
+		}
+	],
+	"pages":"60",
+	"read":"2013-03-18",
+	"subjects":[
+		"Node.js","Development","Programming"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920023258.do"
+		}
+	],
+	"rating":"3",
+	"description":"Good intro but perhaps a little over my head this first time around."
+},{
+	"title":{
+		"name":"Webbots Spiders and Screen Scrapers",
+		"link":"http://www.webbotsspidersscreenscrapers.com/"
+	},
+	"author":{
+		"name":"Michael Schrenk",
+		"link":"http://schrenk.com/"
+	},
+	"publisher":{
+		"name":"No Starch Press",
+		"link":"http://nostarch.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/bots.png",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"159327397"
+		},{
+			"name":"ISBN13",
+			"number":"978-1593273972"
+		}
+	],
+	"pages":"392",
+	"read":"2013-03-25",
+	"subjects":[
+		"PHP","CURL","Bots","Development","Programming"
+	],
+	"links":[
+		{
+			"title":"Book",
+			"link":"http://www.webbotsspidersscreenscrapers.com/"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/1593273975/?tag=schrenkcom-20"
+		}
+	],
+	"rating":"5",
+	"description":"Amazing book that teaches the tools needed to create useful bots and the basics of scraping. Armed with these new skills my mind is bulging with ideas."
 }]
