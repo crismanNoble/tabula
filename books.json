@@ -161,7 +161,8 @@
 	],
 	"rating":"4",
 	"description":"Clay Johnson offers his view on how we, as a society, can take control of the quality of information that we consume. Ending on a hopeful high note, he pleads for developers to spend more time making the world a better place."
-},{"title":{
+},{
+	"title":{
 		"name":"Getting Started with D3",
 		"link":"http://shop.oreilly.com/product/0636920025429.do"
 	},
@@ -351,4 +352,44 @@
 	],
 	"rating":"5",
 	"description":"Amazing book that teaches the tools needed to create useful bots and the basics of scraping. Armed with these new skills my mind is bulging with ideas."
+},{
+	"title":{
+		"name":"Interactive Data Visualization for the Web",
+		"link":"http://alignedleft.com/work/d3-book/"
+	},
+	"author":{
+		"name":"Scott Murray",
+		"link":"http://alignedleft.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2013",
+	"cover":"./covers/dataviz.png",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1449339739"
+		}
+	],
+	"pages":"272",
+	"read":"2013-04-02",
+	"subjects":[
+		"HTML","CSS","SVG","D3.js","Data Visualization"
+	],
+	"links":[
+		{
+			"title":"Free Preview",
+			"link":"http://ofps.oreilly.com/titles/9781449339739/"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920026938.do"
+		},{
+			"title":"Code",
+			"link":"https://github.com/alignedleft/d3-book/"
+		}
+	],
+	"rating":"5",
+	"description":"Somehow managing to be hilarious and insightful, this book guides you from the basics of HTML to the details of stacked column charts. I can't wait to try out the geomapping techniques. Simply amazing."
 }]
