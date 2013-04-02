@@ -39,11 +39,7 @@
 			"link":"http://theleanstartup.com/"
 		},{
 			"title":"Publisher",
-<<<<<<< HEAD
-			"linke":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
-=======
 			"link":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
->>>>>>> gh-pages
 		},{
 			"title":"Amazon",
 			"link":"http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/"
@@ -56,9 +52,6 @@
 		}
 	],
 	"rating":"4",
-<<<<<<< HEAD
-	"description":"This is the one, maybe two sentance description"
-=======
 	"description":"Eric Reis tells his story of IMVU's success and shares some pains along the way. The key takeaway is to Bulid, Measure, Learn, and do so as fast as possible."
 },{
 	"title":{
@@ -89,7 +82,6 @@
 	],
 	"rating":"2",
 	"description":"Very short read on basics of UX. Great for beginners."
->>>>>>> gh-pages
 },{
 	"title":{
 		"name":"Visual Complexity",
@@ -104,51 +96,31 @@
 		"link":"http://papress.com/"
 	},
 	"year":"2011",
-<<<<<<< HEAD
-	"cover":"",
-=======
+
 	"cover":"./covers/visualComplexity.jpg",
->>>>>>> gh-pages
 	"numbers":[
 		{
 			"name":"ISBN",
 			"number":"9781568989365"
-<<<<<<< HEAD
-=======
+
 		},{
 			"name":"Open Library",
 			"number":"OL25075320M"
->>>>>>> gh-pages
 		}
 	],
 	"pages":"272",
 	"read":"2013-02-10",
-<<<<<<< HEAD
-	"links":[
-		{
-			"name":"Amazon",
-			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
-		},{
-			"name":"Publisher",
-=======
-	"subjects":[
-		"Graphic methods", "Communication in science", "Visual communication"
-	],
 	"links":[
 		{
 			"title":"Amazon",
 			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
 		},{
 			"title":"Publisher",
->>>>>>> gh-pages
 			"link":"http://papress.com/html/book.details.page.tpl?isbn=9781568989365"
 		}
 	],
 	"rating":"4",
 	"description":"Wonderful book about the past, present and future of man's attempts to document and display information."
-<<<<<<< HEAD
-}]
-=======
 },{
 	"title":{
 		"name":"The Information Diet",
@@ -420,4 +392,3 @@
 	"rating":"5",
 	"description":"Somehow managing to be hilarious and insightful, this book guides you from the basics of HTML to the details of stacked column charts. I can't wait to try out the geomapping techniques. Simply amazing."
 }]
->>>>>>> gh-pages
