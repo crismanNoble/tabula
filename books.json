@@ -39,7 +39,11 @@
 			"link":"http://theleanstartup.com/"
 		},{
 			"title":"Publisher",
+<<<<<<< HEAD
 			"linke":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
+=======
+			"link":"http://www.randomhouse.com/book/210088/the-lean-startup-by-eric-ries"
+>>>>>>> gh-pages
 		},{
 			"title":"Amazon",
 			"link":"http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/"
@@ -52,7 +56,40 @@
 		}
 	],
 	"rating":"4",
+<<<<<<< HEAD
 	"description":"This is the one, maybe two sentance description"
+=======
+	"description":"Eric Reis tells his story of IMVU's success and shares some pains along the way. The key takeaway is to Bulid, Measure, Learn, and do so as fast as possible."
+},{
+	"title":{
+		"name":"UX Design For Startups",
+		"link":"http://uxpin.com/ux-design-for-startups.html"
+	},
+	"author":{
+		"name":"Marcin Treder",
+		"link":"https://twitter.com/marcintreder"
+	},
+	"publisher":{
+		"name":".net / UXPIN",
+		"link":"http://uxpin.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/uxDesign.png",
+	"numbers":[],
+	"pages":"127",
+	"read":"2013-01-30",
+	"subjects":[
+		"UX","design"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://uxpin.com/ux-design-for-startups.html"
+		}
+	],
+	"rating":"2",
+	"description":"Very short read on basics of UX. Great for beginners."
+>>>>>>> gh-pages
 },{
 	"title":{
 		"name":"Visual Complexity",
@@ -67,24 +104,320 @@
 		"link":"http://papress.com/"
 	},
 	"year":"2011",
+<<<<<<< HEAD
 	"cover":"",
+=======
+	"cover":"./covers/visualComplexity.jpg",
+>>>>>>> gh-pages
 	"numbers":[
 		{
 			"name":"ISBN",
 			"number":"9781568989365"
+<<<<<<< HEAD
+=======
+		},{
+			"name":"Open Library",
+			"number":"OL25075320M"
+>>>>>>> gh-pages
 		}
 	],
 	"pages":"272",
 	"read":"2013-02-10",
+<<<<<<< HEAD
 	"links":[
 		{
 			"name":"Amazon",
 			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
 		},{
 			"name":"Publisher",
+=======
+	"subjects":[
+		"Graphic methods", "Communication in science", "Visual communication"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/ASIN/1568989369/visualcompl0f-20/"
+		},{
+			"title":"Publisher",
+>>>>>>> gh-pages
 			"link":"http://papress.com/html/book.details.page.tpl?isbn=9781568989365"
 		}
 	],
 	"rating":"4",
 	"description":"Wonderful book about the past, present and future of man's attempts to document and display information."
+<<<<<<< HEAD
 }]
+=======
+},{
+	"title":{
+		"name":"The Information Diet",
+		"link":"http://www.informationdiet.com/"
+	},
+	"author":{
+		"name":"Clay A. Johnson",
+		"link":"#"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"978-1-4493-2879-5"
+	},
+	"year":"2012",
+	"cover":"./covers/information.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-1-4493-0468-3"
+		}
+	],
+	"pages":"160",
+	"read":"2013-02-11",
+	"subjects":[
+		"non-fiction","information overload"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://www.informationdiet.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920019978.do"
+		},{
+			"title":"amazon",
+			"link":"http://www.amazon.com/gp/product/1449304680?ie=UTF8&tag=clayworld-20&linkCode=shr&camp=213733&creative=393185&creativeASIN=1449304680&ref_=sr_1_1&qid=1319838673&sr=8-1"
+		}
+	],
+	"rating":"4",
+	"description":"Clay Johnson offers his view on how we, as a society, can take control of the quality of information that we consume. Ending on a hopeful high note, he pleads for developers to spend more time making the world a better place."
+},{
+	"title":{
+		"name":"Getting Started with D3",
+		"link":"http://shop.oreilly.com/product/0636920025429.do"
+	},
+	"author":{
+		"name":"Mike Dewar",
+		"link":"http://mikedewar.org/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2012",
+	"cover":"./covers/d3.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-1-4493-0468-3"
+		}
+	],
+	"pages":"70",
+	"read":"2013-02-25",
+	"subjects":[
+		"programming","information visualization","d3.js"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920025429.do"
+		},{
+			"title":"amazon",
+			"link":"http://www.amazon.com/gp/product/1449328792/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449328792&linkCode=as2&tag=doonthwe-20"
+		}
+	],
+	"rating":"4",
+	"description":"After reading this book I finally am starting to understand d3.js, it is more amazing than I had thought."
+},{
+	"title":{
+		"name":"Open Design Now",
+		"link":"http://www.opendesignnow.com/"
+	},
+	"author":{
+		"name":"Bas Van Abel, Lucas Evers, Roel Klaassen, Peter Troxler",
+		"link":"#"
+	},
+	"publisher":{
+		"name":"BIS publishers",
+		"link":"http://www.bispublishers.nl/"
+	},
+	"year":"2011",
+	"cover":"./covers/opendesign.jpg",
+	"numbers":[
+		{"name":"ISBN",
+		"number":"978-90-63692599"
+		}
+	],
+	"pages":"320",
+	"read":"2013-03-09",
+	"subjects":[
+		"design","collaboration"
+	],
+	"links":[
+		{
+			"title":"Homepage",
+			"link":"http://www.opendesignnow.com/"
+		},{
+			"title":"Publisher",
+			"link":"http://www.bispublishers.nl/bookpage.php?id=190"
+		}
+	],
+	"rating":"5",
+	"description":"This collection of case studies and essays is both encoraging and inspiring. A glimpse into the collaborative future of design."
+},{
+	"title":{
+		"name":"Poke The Box",
+		"link":"#"
+	},
+	"author":{
+		"name":"Seth Godin",
+		"link":"http://www.sethgodin.com/sg/"
+	},
+	"publisher":{
+		"name":"The Domino Project",
+		"link":"http://www.thedominoproject.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/poke.jpg",
+	"numbers":[
+		{"name":"ISBN-13",
+		"number":"9781936719006"
+		},{
+			"name":"ISBN-10",
+			"number":"1936719002"
+		}
+	],
+	"pages":"85",
+	"read":"2013-03-11",
+	"subjects":[
+		"business","starting"
+	],
+	"links":[
+		{
+			"title":"Google Books",
+			"link":"http://books.google.com/books?id=IkU8YgEACAAJ&dq=isbn:9781936719006&hl=&source=gbs_api"
+		},{
+			"title":"Powell's Bookstore",
+			"link":"http://www.powells.com/biblio/1-9781936719006-1"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/ASIN/1936719002/permissionmarket"
+		}
+	],
+	"rating":"5",
+	"description":"This is a maifesto for starting, to fail and to learn. Poke the box and see what happens."
+},{
+	"title":{
+		"name":"Node for Front-End Developers",
+		"link":"http://shop.oreilly.com/product/0636920023258.do"
+	},
+	"author":{
+		"name":"Garann Means",
+		"link":"http://garann.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2012",
+	"cover":"./covers/node.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"1-4493-1883-5"
+		},{
+			"name":"ISBN13",
+			"number":"978-1-4493-1883-3"
+		}
+	],
+	"pages":"60",
+	"read":"2013-03-18",
+	"subjects":[
+		"Node.js","Development","Programming"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920023258.do"
+		}
+	],
+	"rating":"3",
+	"description":"Good intro but perhaps a little over my head this first time around."
+},{
+	"title":{
+		"name":"Webbots Spiders and Screen Scrapers",
+		"link":"http://www.webbotsspidersscreenscrapers.com/"
+	},
+	"author":{
+		"name":"Michael Schrenk",
+		"link":"http://schrenk.com/"
+	},
+	"publisher":{
+		"name":"No Starch Press",
+		"link":"http://nostarch.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/bots.png",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"159327397"
+		},{
+			"name":"ISBN13",
+			"number":"978-1593273972"
+		}
+	],
+	"pages":"392",
+	"read":"2013-03-25",
+	"subjects":[
+		"PHP","CURL","Bots","Development","Programming"
+	],
+	"links":[
+		{
+			"title":"Book",
+			"link":"http://www.webbotsspidersscreenscrapers.com/"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/1593273975/?tag=schrenkcom-20"
+		}
+	],
+	"rating":"5",
+	"description":"Amazing book that teaches the tools needed to create useful bots and the basics of scraping. Armed with these new skills my mind is bulging with ideas."
+},{
+	"title":{
+		"name":"Interactive Data Visualization for the Web",
+		"link":"http://alignedleft.com/work/d3-book/"
+	},
+	"author":{
+		"name":"Scott Murray",
+		"link":"http://alignedleft.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2013",
+	"cover":"./covers/dataviz.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1449339739"
+		}
+	],
+	"pages":"272",
+	"read":"2013-04-02",
+	"subjects":[
+		"HTML","CSS","SVG","D3.js","Data Visualization"
+	],
+	"links":[
+		{
+			"title":"Free Preview",
+			"link":"http://ofps.oreilly.com/titles/9781449339739/"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920026938.do"
+		},{
+			"title":"Code",
+			"link":"https://github.com/alignedleft/d3-book/"
+		}
+	],
+	"rating":"5",
+	"description":"Somehow managing to be hilarious and insightful, this book guides you from the basics of HTML to the details of stacked column charts. I can't wait to try out the geomapping techniques. Simply amazing."
+}]
+>>>>>>> gh-pages
