@@ -392,4 +392,38 @@
 	],
 	"rating":"5",
 	"description":"Somehow managing to be hilarious and insightful, this book guides you from the basics of HTML to the details of stacked column charts. I can't wait to try out the geomapping techniques. Simply amazing."
+},{
+	"title":{
+		"name":"Tribes",
+		"link":"#"
+	},
+	"author":{
+		"name":"Seth Godin",
+		"link":"http://www.sethgodin.com/sg/"
+	},
+	"publisher":{
+		"name":"Portfolio",
+		"link":"http://www.portfolioimprint.com/"
+	},
+	"year":"2008",
+	"cover":"./covers/tribes.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1591842330"
+		}
+	],
+	"pages":"151",
+	"read":"2013-04-13",
+	"subjects":[
+		"Business","Leadership","Motivation"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Tribes-We-Need-You-Lead/dp/1591842336"
+		}
+	],
+	"rating":"4",
+	"description":"Classic Seth Godin style, short digestable snippets of motivation tied together to deliever a powerful message: Your obligated to make a difference, so do it. Now."
 }]
