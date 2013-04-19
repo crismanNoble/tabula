@@ -426,4 +426,44 @@
 	],
 	"rating":"4",
 	"description":"Classic Seth Godin style, short digestable snippets of motivation tied together to deliever a powerful message: Your obligated to make a difference, so do it. Now."
+},{
+	"title":{
+		"name":"Developing Backbone.js Applications",
+		"link":"http://addyosmani.github.io/backbone-fundamentals/"
+	},
+	"author":{
+		"name":"Addy Osmani",
+		"link":"http://addyosmani.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2013",
+	"cover":"./covers/backbone.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1-4493-2825-2"
+		}
+	],
+	"pages":"328",
+	"read":"2013-04-20",
+	"subjects":[
+		"Javascript","Backbone.js","MV*"
+	],
+	"links":[
+		{
+			"title":"Free Preview",
+			"link":"http://addyosmani.github.io/backbone-fundamentals/"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920025344.do"
+		},{
+			"title":"Code",
+			"link":"https://github.com/addyosmani/backbone-fundamentals"
+		}
+	],
+	"rating":"4",
+	"description":"This is a very deep dive into Backbone. From the basics to the extensions to unit testing, Addy guides the reader through common pitfalls and patterns in the most established MV* framework."
 }]
