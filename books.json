@@ -466,4 +466,47 @@
 	],
 	"rating":"4",
 	"description":"This is a very deep dive into Backbone. From the basics to the extensions to unit testing, Addy guides the reader through common pitfalls and patterns in the most established MV* framework."
+},{
+	"title":{
+		"name":"Hackers and Painters",
+		"link":"http://www.paulgraham.com/hackpaint.html"
+	},
+	"author":{
+		"name":"Paul Graham",
+		"link":"http://www.paulgraham.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly Media",
+		"link":"http://shop.oreilly.com/home.do"
+	},
+	"year":"2004",
+	"cover":"./covers/hackers.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-596-00662-4"
+		}, {
+			"name":"ISBN10",
+			"number":"0-596-00662-4"
+		}
+	],
+	"pages":"272",
+	"read":"2013-05-15",
+	"subjects":[
+		"Essays","Startups","Programming","Business"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/exec/obidos/tg/detail/-/0596006624"
+		},{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/9780596006624.do"
+		},{
+			"title":"More Essays",
+			"link":"http://www.paulgraham.com/articles.html"
+		}
+	],
+	"rating":"4",
+	"description":"Excellent collection of essays by the famous PG. My favorite is his version of what makes good design. I wonder what he would say about LISP in 2013."
 }]
