@@ -12,7 +12,7 @@
 		"link":"http://crownpublishing.com/imprint/crown-business/"
 	},
 	"year":"2011",
-	"cover":"./covers/leanStartup.jpg",
+	"cover":"./covers/leanStartup.png",
 	"numbers":[
 		{
 			"name":"ISBN",
@@ -406,7 +406,7 @@
 		"link":"http://www.portfolioimprint.com/"
 	},
 	"year":"2008",
-	"cover":"./covers/tribes.jpg",
+	"cover":"./covers/tribes.png",
 	"numbers":[
 		{
 			"name":"ISBN13",
