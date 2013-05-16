@@ -207,6 +207,7 @@ html, body {
 	padding-bottom: 4px;
 	text-align: center;
 	width: 100%;
+	z-index: -1;
 }
 
 #year, #publisher {
@@ -278,8 +279,7 @@ function doWork(){
 		});
 	});
 
-	var randomBook = Math.round(Math.random()*$('.bookBullet').length)-1;
-	console.log(randomBook);
+	var randomBook = Math.round(Math.random()*($('.bookBullet').length-1));
 	createBook(randomBook);
 	bookNumber = randomBook;
 

@@ -509,4 +509,41 @@
 	],
 	"rating":"4",
 	"description":"Excellent collection of essays by the famous PG. My favorite is his version of what makes good design. I wonder what he would say about LISP in 2013."
+},{
+	"title":{
+		"name":"Scalable and Modular Architecture for CSS",
+		"link":"http://smacss.com"
+	},
+	"author":{
+		"name":"Johnathan Snook",
+		"link":"http://snook.ca"
+	},
+	"publisher":{
+		"name":"Snook.ca Web Development, Inc.",
+		"link":"http://snook.ca"
+	},
+	"year":"2012",
+	"cover":"./covers/smacss.png",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-9856321-0-6"
+		}
+	],
+	"pages":"112",
+	"read":"2013-05-16",
+	"subjects":[
+		"CSS","Programming","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://smacss.com"
+		},{
+			"title":"Online Preview",
+			"link":"http://smacss.com/book"
+		}
+	],
+	"rating":"3",
+	"description":"A great colletion of best practices for CSS organization with a focus on scalability and modularity. Not for beginners."
 }]
