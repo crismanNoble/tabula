@@ -12,7 +12,7 @@
 		"link":"http://crownpublishing.com/imprint/crown-business/"
 	},
 	"year":"2011",
-	"cover":"./covers/leanStartup.png",
+	"cover":"./covers/leanstartup.png",
 	"numbers":[
 		{
 			"name":"ISBN",
@@ -546,4 +546,41 @@
 	],
 	"rating":"3",
 	"description":"A great colletion of best practices for CSS organization with a focus on scalability and modularity. Not for beginners."
+},{
+	"title":{
+		"name":"HTML5 For Web Designers",
+		"link":"http://www.abookapart.com/products/html5-for-web-designers"
+	},
+	"author":{
+		"name":"Jeremy Keith",
+		"link":"http://adactio.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2010",
+	"cover":"./covers/aba1.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-9844425-0-8"
+		}
+	],
+	"pages":"87",
+	"read":"2013-05-28",
+	"subjects":[
+		"HTML5","HTML","Programming","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/html5-for-web-designers"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/a-brief-history-of-markup"
+		}
+	],
+	"rating":"5",
+	"description":"An excellent read for web designers and developers alike. I have been using HTML5 for 3 years. Now I will use it correctly. The history in the first chapter is fascinating."
 }]
