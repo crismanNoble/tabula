@@ -583,4 +583,41 @@
 	],
 	"rating":"5",
 	"description":"An excellent read for web designers and developers alike. I have been using HTML5 for 3 years. Now I will use it correctly. The history in the first chapter is fascinating."
+},{
+	"title":{
+		"name":"CSS3 For Web Designers",
+		"link":"http://www.abookapart.com/products/css3-for-web-designers"
+	},
+	"author":{
+		"name":"Dan Cederholm",
+		"link":"http://simplebits.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2010",
+	"cover":"./covers/aba2.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-9844425-2-2"
+		}
+	],
+	"pages":"125",
+	"read":"2013-05-30",
+	"subjects":[
+		"CSS3","CSS","Design","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/css3-for-web-designers"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/understanding-css3-transitions"
+		}
+	],
+	"rating":"3",
+	"description":"Not a whole lot of new information for me in this one. The chapters on animations and transformations made it worth the read."
 }]
