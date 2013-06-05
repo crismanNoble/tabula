@@ -620,4 +620,41 @@
 	],
 	"rating":"3",
 	"description":"Not a whole lot of new information for me in this one. The chapters on animations and transformations made it worth the read."
+},{
+	"title":{
+		"name":"The Elements Of Content Strategy",
+		"link":"http://www.abookapart.com/products/the-elements-of-content-strategy"
+	},
+	"author":{
+		"name":"Erin Kissane",
+		"link":"http://incisive.nu/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/aba3.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-9844425-5-3"
+		}
+	],
+	"pages":"81",
+	"read":"2013-06-05",
+	"subjects":[
+		"IA","Content Strategy","Business","Design"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/the-elements-of-content-strategy"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://www.abookapart.com/products/the-elements-of-content-strategy"
+		}
+	],
+	"rating":"4",
+	"description":"This was a great introduction to the large world of content strategy. I was previously unaware at the myriad of processes and design decisions that go into creating a well thoughtout website. Now I want to learn more."
 }]
