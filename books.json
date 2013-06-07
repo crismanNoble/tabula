@@ -657,4 +657,39 @@
 	],
 	"rating":"4",
 	"description":"This was a great introduction to the large world of content strategy. I was previously unaware at the myriad of processes and design decisions that go into creating a well thoughtout website. Now I want to learn more."
+},{
+	"title":{
+		"name":"A Game Of Thrones",
+		"link":"http://www.georgerrmartin.com/grrm_book/a-game-of-thrones-a-song-of-ice-and-fire-book-one/"
+	},
+	"author":{
+		"name":"George R. R. Martin",
+		"link":"http://www.georgerrmartin.com/"
+	},
+	"publisher":{
+		"name":"Bantam",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"1996",
+	"cover":"./covers/got1.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0-553-10354-7"
+		}
+	],
+	"pages":"704",
+	"read":"2013-06-06",
+	"method":"audio",
+	"subjects":[
+		"fiction","fantasy"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0307913090/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307913090&linkCode=as2&tag=doonthwe-20"
+		}
+	],
+	"rating":"5",
+	"description":"More in depth than the TV series, worth the read / listen if you have the time."
 }]
