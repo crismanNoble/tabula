@@ -692,4 +692,41 @@
 	],
 	"rating":"5",
 	"description":"More in depth than the TV series, worth the read / listen if you have the time."
+},{
+	"title":{
+		"name":"Responsive Web Design",
+		"link":"http://www.abookapart.com/products/responsive-web-design"
+	},
+	"author":{
+		"name":"Ethan Marcotte",
+		"link":"http://ethanmarcotte.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/aba4.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-9844425-7-7"
+		}
+	],
+	"pages":"150",
+	"read":"2013-06-13",
+	"subjects":[
+		"Design","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/responsive-web-design"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/fluid-images"
+		}
+	],
+	"rating":"5",
+	"description":"Ethan is a great writer and a venerable expert in RWD. This englightening book is a great way to dive into responsive design and development."
 }]
