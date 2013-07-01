@@ -729,4 +729,41 @@
 	],
 	"rating":"5",
 	"description":"Ethan is a great writer and a venerable expert in RWD. This englightening book is a great way to dive into responsive design and development."
+},{
+	"title":{
+		"name":"Mobile First",
+		"link":"http://www.abookapart.com/products/mobile-first"
+	},
+	"author":{
+		"name":"Luke Wroblewski",
+		"link":"http://www.lukew.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/aba6.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1-937557-02-7"
+		}
+	],
+	"pages":"130",
+	"read":"2013-06-30",
+	"subjects":[
+		"Design","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/mobile-first"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/organizing-mobile"
+		}
+	],
+	"rating":"5",
+	"description":"Luke W is truly a mobile visionary. At two years old, many of his predictions have come true, except the one about Blackberry's amazing browser and how it will give Safari a run for the money. A great read for anyone making websites."
 }]
