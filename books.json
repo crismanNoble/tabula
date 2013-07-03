@@ -766,4 +766,41 @@
 	],
 	"rating":"5",
 	"description":"Luke W is truly a mobile visionary. At two years old, many of his predictions have come true, except the one about Blackberry's amazing browser and how it will give Safari a run for the money. A great read for anyone making websites."
+},{
+	"title":{
+		"name":"Cloud Atlas",
+		"link":"http://www.thousandautumns.com/cloud-atlas/"
+	},
+	"author":{
+		"name":"David Mitchell",
+		"link":"http://www.thousandautumns.com/"
+	},
+	"publisher":{
+		"name":"Random House of Canada",
+		"link":"http://www.randomhouse.ca/"
+	},
+	"year":"2004",
+	"cover":"./covers/cloud.svg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0307373576"
+		}
+	],
+	"pages":"528",
+	"read":"2013-07-03",
+	"subjects":[
+		"Fiction"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/081299471X/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=081299471X&linkCode=as2&tag=doonthwe-20"
+		},{
+			"title":"Good Reads",
+			"link":"http://www.goodreads.com/book/show/49628.Cloud_Atlas"
+		}
+	],
+	"rating":"5",
+	"description":"Mitchell goes much further into the stories than the movie could possibly fit in a couple hours. Worth the read, especially if you enjoyed the movie."
 }]
