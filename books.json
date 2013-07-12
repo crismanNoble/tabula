@@ -803,4 +803,41 @@
 	],
 	"rating":"5",
 	"description":"Mitchell goes much further into the stories than the movie could possibly fit in a couple hours. Worth the read, especially if you enjoyed the movie."
+},{
+	"title":{
+		"name":"Emotional Design",
+		"link":"http://www.abookapart.com/products/designing-for-emotion"
+	},
+	"author":{
+		"name":"Aarron Walter",
+		"link":"http://aarronwalter.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/aba7.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1-937557-00-3"
+		}
+	],
+	"pages":"104",
+	"read":"2013-07-12",
+	"subjects":[
+		"Design","Business"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/designing-for-emotion"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/personality-in-design"
+		}
+	],
+	"rating":"4",
+	"description":"Emotional design is not something I had really thought about but Aaron really made me think. The business case behind emotional design is certainly compelling."
 }]
