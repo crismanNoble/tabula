@@ -840,4 +840,38 @@
 	],
 	"rating":"4",
 	"description":"Emotional design is not something I had really thought about but Aaron really made me think. The business case behind emotional design is certainly compelling."
+},{
+	"title":{
+		"name":"Emotional Design",
+		"link":"http://www.abookapart.com/products/designing-for-emotion"
+	},
+	"author":{
+		"name":"Web Form Design",
+		"link":"http://rosenfeldmedia.com/books/web-form-design/"
+	},
+	"publisher":{
+		"name":"Rosenfeld Media",
+		"link":"http://rosenfeldmedia.com/"
+	},
+	"year":"2008",
+	"cover":"./covers/webform.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"1-933820-25-X"
+		}
+	],
+	"pages":"226",
+	"read":"2013-08-09",
+	"subjects":[
+		"Design","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://rosenfeldmedia.com/books/web-form-design/"
+		}
+	],
+	"rating":"4",
+	"description":"Who would have thought that an entire book could be devoted to web-form design. In Luke W's hands we somehow have an engaging book that will make you seriously think differently building web-forms."
 }]
