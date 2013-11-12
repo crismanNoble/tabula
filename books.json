@@ -915,7 +915,7 @@
 },{
 	"title":{
 		"name":"The Martian Chronicles",
-		"link":""
+		"link":"http://www.raybradbury.com/books/martianchronicles-hc.html"
 	},
 	"author":{
 		"name":"Ray Bradbury",
@@ -923,7 +923,7 @@
 	},
 	"publisher":{
 		"name":"Doubleday",
-		"link":""
+		"link":"http://knopfdoubleday.com/imprint/doubleday/"
 	},
 	"year":"1950",
 	"cover":"./covers/martian.jpg",
@@ -944,8 +944,8 @@
 			"link":"http://www.amazon.com/gp/product/1451678193/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451678193&linkCode=as2&tag=doonthwe-20"
 		}
 	],
-	"rating":"4",
-	"description":"Second time through this one. It is a fast pace and fun read, you don't need to be a nerd, but you will appreciate it even more if you are."
+	"rating":"3",
+	"description":"Somewhat slow moving collection of short stories about the not so distant future where we conquor and destroy Mars as bad as we did America."
 },{
 	"title":{
 		"name":"Remote",
