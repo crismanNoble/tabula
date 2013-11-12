@@ -914,6 +914,40 @@
 	"description":"Second time through this one. It is a fast pace and fun read, you don't need to be a nerd, but you will appreciate it even more if you are."
 },{
 	"title":{
+		"name":"The Martian Chronicles",
+		"link":""
+	},
+	"author":{
+		"name":"Ray Bradbury",
+		"link":"http://www.raybradbury.com/"
+	},
+	"publisher":{
+		"name":"Doubleday",
+		"link":""
+	},
+	"year":"1950",
+	"cover":"./covers/martian.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"9781451678192"
+		}
+	],
+	"pages":"222",
+	"read":"2013-11-02",
+	"subjects":[
+		"Fiction"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/1451678193/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451678193&linkCode=as2&tag=doonthwe-20"
+		}
+	],
+	"rating":"4",
+	"description":"Second time through this one. It is a fast pace and fun read, you don't need to be a nerd, but you will appreciate it even more if you are."
+},{
+	"title":{
 		"name":"Remote",
 		"link":"http://37signals.com/remote/"
 	},
