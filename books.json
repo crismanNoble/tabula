@@ -874,4 +874,80 @@
 	],
 	"rating":"4",
 	"description":"Who would have thought that an entire book could be devoted to web-form design. In Luke W's hands we somehow have an engaging book that will make you seriously think differently building web-forms."
+},{
+	"title":{
+		"name":"Ready Plaer One",
+		"link":"http://readyplayerone.com/"
+	},
+	"author":{
+		"name":"Ernest CLine",
+		"link":"http://www.ernestcline.com/"
+	},
+	"publisher":{
+		"name":"Broadway Books",
+		"link":"http://crownpublishing.com/imprint/broadway-books/"
+	},
+	"year":"2012",
+	"cover":"./covers/playerone.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0307887448"
+		}
+	],
+	"pages":"374",
+	"read":"2013-10-30",
+	"subjects":[
+		"Fiction"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0307887448/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307887448&linkCode=as2&tag=doonthwe-20"
+		},
+		{
+			"title":"Powell's",
+			"link":"http://www.powells.com/biblio/1-0804137501-1"
+		}
+	],
+	"rating":"5",
+	"description":"Second time through this one. It is a fast pace and fun read, you don't need to be a nerd, but you will appreciate it even more if you are."
+},{
+	"title":{
+		"name":"Remote",
+		"link":"http://37signals.com/remote/"
+	},
+	"author":{
+		"name":"Jason Fried, DHH",
+		"link":"http://37signals.com/"
+	},
+	"publisher":{
+		"name":"Crown Business",
+		"link":"http://crownpublishing.com/imprint/crown-business/"
+	},
+	"year":"2013",
+	"cover":"./covers/remote.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0804137501"
+		}
+	],
+	"pages":"256",
+	"read":"2013-11-12",
+	"subjects":[
+		"Business"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0804137501/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0804137501&linkCode=as2&tag=doonthwe-20"
+		},
+		{
+			"title":"Powell's",
+			"link":"http://www.powells.com/biblio/1-0804137501-1"
+		}
+	],
+	"rating":"4",
+	"description":"Extremley quick read (lots of pictures) but a great book for anyone who doesn't believe we have reached peak office yet."
 }]
