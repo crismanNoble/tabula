@@ -40,9 +40,9 @@ height: 3em;
 .coverImage {
 	width: 50%;
 	float: left;
-	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
-	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
-	box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
 
 	box-sizing: border-box;
 /*  	padding-right:10px;*/
@@ -295,9 +295,7 @@ clear: both;
   
   .coverImage {
 	width: 35%;
-	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
-	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
-	box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+	
 	right: 10px;
 	position: absolute;
 	}
