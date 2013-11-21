@@ -113,6 +113,10 @@ function createBullets(){
 
 		$('#timeline').append(bullet);
 	}
+
+	$('.bookBullet').hover(function(){
+		$('#navbar').toggleClass('transparent');
+	});
 }
 
 function clearBook(){

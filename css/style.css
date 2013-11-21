@@ -32,6 +32,10 @@ body {
 	float: right;
 }
 
+#navbar {
+	background: #ddd;
+}
+
 .coverImage {
 	width: 50%;
 	min-width: 50%;
@@ -84,10 +88,9 @@ body {
 .bookNav {
 	text-align: center;
 	color: #ccc;
-	font-style: italic;
+/*	font-style: italic;*/
 	font-family: Apollo;
 	text-decoration: none;
-	margin-top: 10px;
 }
 
 .bookNav2 {
@@ -103,10 +106,10 @@ body {
 .bookNavLink {
 	color: #666;
 	text-decoration: none;
-	-webkit-transition: all .3s linear;
+/*	-webkit-transition: all .3s linear;
 	-moz-transition: all .3s linear;
 	-o-transition: all .3s linear;
-	transition: all .3s linear;
+	transition: all .3s linear;*/
 }
 
 .bookNavLink:hover {
@@ -150,13 +153,17 @@ body {
 	margin-bottom: 30px;
 }
 
+.italic {
+	font-style: italic;
+}
+
 .header {
 	height: 20px;
 	background: #ccc;
 	color: #f9f9f9;
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-family: Apollo;
-	font-style: italic;
+/*	font-style: italic;*/
 	font-size: 12px;
 	line-height: 16px;
 	padding-left: 20px;
@@ -193,6 +200,10 @@ body {
 	border: 1px solid #333;
 	margin-top: 4px;
 	overflow: visible;
+}
+
+.transparent * {
+	color: rgba(0,0,0,0);
 }
 
 .bookBullet.active {
