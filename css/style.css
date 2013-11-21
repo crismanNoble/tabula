@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -5,25 +9,16 @@ body {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
-html, body {
-	height: 100%;
-}
-
-/** {
-margin: 0;
-}*/
-
 .wrapper {
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -3em;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -3em;
 }
 
 .footer, .push {
-height: 3em;
+	height: 3em;
 }
-
 
 .bookTitle {
 	font-weight: normal;
@@ -39,13 +34,12 @@ height: 3em;
 
 .coverImage {
 	width: 50%;
+	min-width: 50%;
 	float: left;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
-
 	box-sizing: border-box;
-/*  	padding-right:10px;*/
 }
 
 .bookArea {
@@ -53,7 +47,6 @@ height: 3em;
 	width: 100%;
 	max-width: 600px;
 	position: relative;
-
 }
 
 .author {
@@ -78,7 +71,6 @@ height: 3em;
 	font-size: 14px;
 	line-height: 16px;
 	font-family: Apollo;
-
 }
 
 .bookInfo {
@@ -87,9 +79,7 @@ height: 3em;
 	float:left;
 	box-sizing: border-box;
   	padding-left:20px;
-  }
-
-
+}
 
 .bookNav {
 	text-align: center;
@@ -99,6 +89,7 @@ height: 3em;
 	text-decoration: none;
 	margin-top: 10px;
 }
+
 .bookNav2 {
 	text-align: center;
 	color: #666;
@@ -117,6 +108,7 @@ height: 3em;
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
 }
+
 .bookNavLink:hover {
 	text-decoration: underline;
 }
@@ -169,8 +161,7 @@ height: 3em;
 	line-height: 16px;
 	padding-left: 20px;
 	padding-top: 2px;
-
-		-webkit-transition: all .3s linear;
+	-webkit-transition: all .3s linear;
 	-moz-transition: all .3s linear;
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
@@ -188,7 +179,7 @@ height: 3em;
 	height: 7px;
 	border-radius: 100%;
 	background: #f9f9f9;
-		border: 1px solid #ccc;
+	border: 1px solid #ccc;
 	font-size: 20px;
 	margin-top: 4px;
 	-webkit-transition: background .3s linear;
@@ -210,13 +201,13 @@ height: 3em;
 	margin-top: 4px;
 	z-index:10;
 }
+
 .hoverTitle {
 	min-width: 400px;
 	color: #666;
 	position: absolute;
 	top: 15px;
 	font-size: 12px;
-
 }
 
 .bookBullet:hover .hoverTitle {
@@ -233,19 +224,9 @@ height: 3em;
 #year, #publisher {
 	margin-top: 0px;
 }
+
 .clear {
 	clear:both;
-}
-.copyleft {
-	font-family: sans-serif;
-	margin-right: 4px;
-	display: inline-block;
--webkit-transform: rotate(-180deg);
--moz-transform: rotate(-180deg);
--o-transform: rotate(-180deg);
--ms-transform: rotate(-180deg);
-transform: rotate(-180deg);
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .about {
@@ -255,57 +236,62 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .footer, .push {
-clear: both;
+	clear: both;
 }
 
 
 @media all and (max-width: 600px){
-.bookArea{
-  	padding-left:10px;
-  	padding-right:10px;
-  	box-sizing: border-box;
-  	margin-top:10px;
-  }
-  .bookInfo{
-  	padding-left:10px;
-  	padding-right:10px;
-  }
-/*  .cover{
-  	padding-right:5px;
-  }*/
+	.bookArea{
+		padding-left:10px;
+		padding-right:10px;
+		box-sizing: border-box;
+		margin-top:10px;
+	}
 
+	.bookInfo{
+		padding-left:10px;
+		padding-right:10px;
+	}
 
+	.century {
+		display: none;
+	}
 
-
+	.header {
+		padding-left: 10px;
+	}
 }
 
 @media all and (max-width: 480px){
-  .bookArea{
-  	margin-top:10px;
-  }
-  .divider {
-  	display:none;
-  }
-  .bookInfo {
-    width: 100%;
-    left: 0%;
-    padding-left:0;
-    position: relative;
-  }
-  
-  .coverImage {
-	width: 35%;
-	
-	right: 10px;
-	position: absolute;
+	.bookArea{
+		margin-top: 10px;
 	}
+
+	.divider {
+		display: none;
+	}
+
+	.bookTitle {
+		font-size: 24px;
+	}
+
+	.bookInfo {
+		width: 100%;
+		left: 0%;
+		padding-left: 0;
+		margin-top: 10px;
+		position: relative;
+	}
+
+	.coverImage {
+		width: 100%;
+	}
+
 	.bookTitle, .author{
-		max-width: 55%;
+		max-width: 100%;
 	}
 
-	
 	#numbers {
-		margin-top:20px;
+		margin-top: 20px;
 	}
-
 }
