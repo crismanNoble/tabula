@@ -12,7 +12,7 @@
 		"link":"http://crownpublishing.com/imprint/crown-business/"
 	},
 	"year":"2011",
-	"cover":"./covers/leanstartup.png",
+	"cover":"./covers/leanstartup.jpg",
 	"numbers":[
 		{
 			"name":"ISBN",
@@ -406,7 +406,7 @@
 		"link":"http://www.portfolioimprint.com/"
 	},
 	"year":"2008",
-	"cover":"./covers/tribes.png",
+	"cover":"./covers/tribes.jpg",
 	"numbers":[
 		{
 			"name":"ISBN13",
@@ -854,7 +854,7 @@
 		"link":"http://rosenfeldmedia.com/"
 	},
 	"year":"2008",
-	"cover":"./covers/webform.jpg",
+	"cover":"./covers/webform.png",
 	"numbers":[
 		{
 			"name":"ISBN10",

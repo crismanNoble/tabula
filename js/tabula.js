@@ -1,35 +1,14 @@
-
 $(document).ready(function(){
 	$.getJSON('./books.json',function(data){
 		bookData = data
 		doWork();
-	});
-	_tally.tick('pageView','v1');
-	$('.subtleLink').click(function(){
-		_tally.click(e,'footer link');
 	});
 });
 
 function doWork(){
 	createBullets();
 
-	$('.about').hide();
-
 	$('#totalCount').html(bookData.length);
-
-	$('#aboutLink').click(function(event){
-		event.preventDefault();
-		console.log('clicked about');
-		console.log(about);
-		if(about == false){
-			$('.about').slideDown();
-			about = true;
-		} else {
-			$('.about').slideUp();
-			about = false;
-		}
-		_tally.tick('click','about link toggle');
-	});
 
 	$('.bookBullet').click(function(){
 
@@ -45,7 +24,7 @@ function doWork(){
 			createBook(bookNumber);
 			$('.bookArea').fadeIn(700);
 		});
-		_tally.tick('click','bookBullet');
+
 	});
 
 	var randomBook = Math.round(Math.random()*($('.bookBullet').length-1));
@@ -72,11 +51,12 @@ function doWork(){
 		});
 
 		$('.header [data-booknumber="'+bookNumber+'"]').addClass('active');
-		
-		_tally.tick('click','next/prev');
+
 	});
 
 	$('.header [data-booknumber="'+bookNumber+'"]').addClass('active');
+
+	attachBookTracking();
 
 };
 
@@ -233,10 +213,6 @@ function createBook(number){
 
 	}
 	
-	$('.externalLink').click(function(e){
-		_tally.click(e,'external link click');	
-	});
-
 	updateLinks(number);
 	
 }
