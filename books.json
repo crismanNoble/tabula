@@ -985,79 +985,44 @@
 	"rating":"4",
 	"description":"Extremley quick read (lots of pictures) but a great book for anyone who doesn't believe we have reached peak office yet."
 },{
-    "year": "2010",
-    "rating": "4",
-    "pages": "416",
-    "read_date": "2013-11-26",
-    "description": "A good collection of essays from people on the frontier of data visualization. Good read for anyone interested in data visualization. A great way to crush your ego about your neato excel chart.",
-    "image": "./covers/beautiful.jpg",
-    "link": [
-      {
-        "name": "Powell's",
-        "link": "http://www.powells.com/biblio/1-9781449379865-1",
-        "_id": "5295343bd64f5cc44300000a"
-      },
-      {
-        "name": "Open Library",
-        "link": "http://openlibrary.org/isbn/9781449379865",
-        "_id": "5295343bd64f5cc443000009"
-      },
-      {
-        "name": "Google",
-        "link": "https://www.googleapis.com/books/v1/volumes?q=isbn:9781449379865",
-        "_id": "5295343bd64f5cc443000008"
-      },
-      {
-        "name": "Publisher",
-        "link": "http://shop.oreilly.com/product/0636920000617.do",
-        "_id": "5295343bd64f5cc443000007"
-      },
-      {
-        "name": "Free Sample",
-        "link": "http://cdn.oreilly.com/oreilly/booksamplers/9781449379865-sampler.pdf",
-        "_id": "5295343bd64f5cc443000006"
-      }
-    ],
-    "number": [
-      {
-        "name": "ISBN_10",
-        "number": "1449379869",
-        "_id": "5295343bd64f5cc44300000c"
-      },
-      {
-        "name": "ISBN_13",
-        "number": "9781449379865",
-        "_id": "5295343bd64f5cc44300000b"
-      }
-    ],
-    "subject": [
-      {
-        "name": "visualization",
-        "_id": "5295343bd64f5cc443000010"
-      },
-      {
-        "name": "data",
-        "_id": "5295343bd64f5cc44300000f"
-      },
-      {
-        "name": "design",
-        "_id": "5295343bd64f5cc44300000e"
-      },
-      {
-        "name": "development",
-        "_id": "5295343bd64f5cc44300000d"
-      }
-    ],
-    "publisher": {
-      "name": "O'Reilly",
-      "link": "http://oreilly.com/"
-    },
-    "author": {
-      "name": "Julie Steele & Noah Iliinsky",
-      "link": "http://complexdiagrams.com/"
-    },
-    "title": {
-      "name": "Beautiful Visualization",
-      "link": "http://books.google.com/books/about/Beautiful_Visualization.html?hl=&id=tTTpmAEACAAJ"
-    }
-  }]
+	"title":{
+		"name":"Beautiful Visualization",
+		"link":"http://books.google.com/books/about/Beautiful_Visualization.html?hl=&id=tTTpmAEACAAJ"
+	},
+	"author":{
+		"name":"Julie Steele, Noah Iliinsky",
+		"link":"http://complexdiagrams.com/"
+	},
+	"publisher":{
+		"name":"O'Reilly",
+		"link":"http://oreilly.com/"
+	},
+	"year":"2010",
+	"cover":"./covers/beautiful.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0804137501"
+		}
+	],
+	"pages":"416",
+	"read":"2013-11-26",
+	"subjects":["visualization","data","design","development"],
+	"links":[
+		{
+			"title":"Open Library",
+			"link":"http://openlibrary.org/isbn/9781449379865"
+		},
+		{
+			"title":"Publisher",
+			"link":"http://shop.oreilly.com/product/0636920000617.do"
+		},{
+			"name": "Sample Chapter",
+        	"link": "http://cdn.oreilly.com/oreilly/booksamplers/9781449379865-sampler.pdf"
+		}
+	],
+	"rating":"4",
+	"description":"A good collection of essays from people on the frontier of data visualization. Good read for anyone interested in data visualization. A great way to crush your ego about your neato excel chart."
+}
+	
+]
