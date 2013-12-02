@@ -1023,6 +1023,42 @@
 	],
 	"rating":"4",
 	"description":"A good collection of essays from people on the frontier of data visualization. Good read for anyone interested in data visualization. A great way to crush your ego about your neato excel chart."
+},{
+	"title":{
+		"name":"Without Their Permission",
+		"link":"http://withouttheirpermission.com/"
+	},
+	"author":{
+		"name":"Alexis Ohanian",
+		"link":"http://alexisohanian.com/"
+	},
+	"publisher":{
+		"name":"Business Plus",
+		"link":"http://www.hachettebookgroup.com/"
+	},
+	"year":"2013",
+	"cover":"./covers/without.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"1455520039"
+		}
+	],
+	"pages":"256",
+	"read":"2013-12-01",
+	"subjects":["business","optimisim","SOPA"],
+	"links":[
+		{
+			"title":"Open Library",
+			"link":"http://openlibrary.org/isbn/9781455520039"
+		},
+		{
+			"title":"Publisher",
+			"link":"http://www.hachettebookgroup.com/titles/alexis-ohanian/without-their-permission/9781455520022/"
+		}
+	],
+	"rating":"3",
+	"description":"Honestly, I expected a bit more from this one. On one hand Alexis shares my optimism and excitement for a world digested by code, on the other hand how can you recount the rise of Reddit, the fight against SOPA, the new power of the EFF and Demand Progess, without a single mention of Aaron Swartz? For some reason the parts of book rubbed me as a feint humble brag. That being said, I respect Alexis greatly for all of the work he has done to promote and build the open web. I have no doubt that his writing skills will catch up with his ambition."
 }
 	
 ]
