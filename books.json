@@ -1059,6 +1059,46 @@
 	],
 	"rating":"3",
 	"description":"Honestly, I expected a bit more from this one. On one hand Alexis shares my optimism and excitement for a world digested by code, on the other hand how can you recount the rise of Reddit, the fight against SOPA, the new power of the EFF and Demand Progess, without a single mention of Aaron Swartz? For some reason the parts of book rubbed me as a feint humble brag. That being said, I respect Alexis greatly for all of the work he has done to promote and build the open web. I have no doubt that his writing skills will catch up with his ambition."
+},{
+	"title":{
+		"name":"Design is a Job",
+		"link":"http://www.abookapart.com/products/design-is-a-job"
+	},
+	"author":{
+		"name":"Mike Monteiro",
+		"link":"http://mikemonteiro.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/aba7.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1937557041"
+		}
+	],
+	"pages":"136",
+	"read":"2013-12-27",
+	"subjects":[
+		"Design","Business"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/design-is-a-job"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/getting-clients"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/1937557049/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1937557049&linkCode=as2&tag=doonthwe-20"
+		}
+	],
+	"rating":"5",
+	"description":"Useful read for any designer or developer that wants to do contract work, or anyone working with designers, or really anyone who is a creative business person. Much more about running a proper business than actual design."
 }
 	
 ]
