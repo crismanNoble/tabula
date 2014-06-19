@@ -1136,6 +1136,42 @@
 	],
 	"rating":"4",
 	"description":"A must read for anyone thinking about creating a style guide for their team. Or if you like CSS."
+},{
+	"title":{
+		"name":"Design for the Real World",
+		"link":"http://www.maban.co.uk/projects/front-end-style-guides/"
+	},
+	"author":{
+		"name":"Victor J. Papanek",
+		"link":"http://papanek.org/"
+	},
+	"publisher":{
+		"name":"Bantam Books",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"1971",
+	"cover":"./covers/realworld.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"978-0-394-47036-8"
+		}
+	],
+	"pages":"69",
+	//"read":"2014-06-16",
+	"read":"2013-06-16",
+	"subjects":[
+		"Design",
+		"Politics"
+	],
+	"links":[
+		{
+			"title":"Open Library",
+			"link":"https://openlibrary.org/works/OL8366020W/Design_for_the_real_world"
+		}
+	],
+	"rating":"5",
+	"description":"Mike Monteiro was right, this book will change your outlook on life. Papanek lays out the case for how designers' neglect of integrity has ruined the world and filled it with crap, and then makes the case for how design will become the only meaningful profession in the near future so it is up to designers to change the world for the better."
 }
 	
 ]
