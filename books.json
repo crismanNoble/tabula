@@ -1099,6 +1099,43 @@
 	],
 	"rating":"5",
 	"description":"Useful read for any designer or developer that wants to do contract work, or anyone working with designers, or really anyone who is a creative business person. Much more about running a proper business than actual design."
+},{
+	"title":{
+		"name":"Front-end Style Guides",
+		"link":"http://www.maban.co.uk/projects/front-end-style-guides/"
+	},
+	"author":{
+		"name":"Anna Debenham",
+		"link":"http://www.maban.co.uk/"
+	},
+	"publisher":{
+		"name":"Five Simple Steps",
+		"link":"http://www.fivesimplesteps.com/"
+	},
+	"year":"2013",
+	"cover":"./covers/fesg.png",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"978-1-907828-50-8"
+		}
+	],
+	"pages":"69",
+	//"read":"2014-04-02",
+	"read":"2013-04-02",
+	"subjects":[
+		"Development",
+		"CSS",
+		"HTML"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase (Author)",
+			"link":"http://www.maban.co.uk/projects/front-end-style-guides/"
+		}
+	],
+	"rating":"4",
+	"description":"A must read for anyone thinking about creating a style guide for their team. Or if you like CSS."
 }
 	
 ]
