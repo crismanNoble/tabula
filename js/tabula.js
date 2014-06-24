@@ -1121,8 +1121,8 @@ var bookData = [{
 		}
 	],
 	"pages":"69",
-	//"read":"2014-04-02",
-	"read":"2013-04-02",
+	"read":"2014-04-02",
+	//"read":"2013-04-02",
 	"subjects":[
 		"Development",
 		"CSS",
@@ -1158,8 +1158,8 @@ var bookData = [{
 		}
 	],
 	"pages":"69",
-	//"read":"2014-06-16",
-	"read":"2013-06-16",
+	"read":"2014-06-16",
+	//"read":"2013-06-16",
 	"subjects":[
 		"Design",
 		"Politics"
@@ -1238,7 +1238,7 @@ function doWork(){
 
 	$('.header [data-booknumber="'+bookNumber+'"]').addClass('active');
 
-	attachBookTracking();
+	//attachBookTracking();
 
 };
 
@@ -1257,10 +1257,12 @@ function createBullets(){
 		var start = new Date(2013, 0, 0);
 		var date = new Date(yr,mo,da);
 
-		var diff = Math.floor((date - start )/(1000 * 60 * 60 * 24));
-		var percent = Math.floor(1000*diff/365)/10;
+		console.log(date);
 
-		percent = percent*0.9 + 5;
+		var diff = Math.floor((date - start )/(1000 * 60 * 60 * 24));
+		var percent = Math.floor(1000*diff/730)/10;
+
+		percent = percent;
 
 		var bullet = $(document.createElement('div'));
 		bullet.addClass('bookBullet');

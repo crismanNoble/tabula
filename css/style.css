@@ -36,6 +36,14 @@ body {
 	background: #ddd;
 }
 
+.newYear {
+	float: right;
+	width: 50%;
+	background: #bbb;
+	margin-top: -2px;
+	height: 22px;
+}
+
 .coverImage {
 	width: 50%;
 	min-width: 50%;
