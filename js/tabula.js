@@ -805,7 +805,7 @@ var bookData = [{
 	"description":"Mitchell goes much further into the stories than the movie could possibly fit in a couple hours. Worth the read, especially if you enjoyed the movie."
 },{
 	"title":{
-		"name":"Emotional Design",
+		"name":"Designing For Emotion",
 		"link":"http://www.abookapart.com/products/designing-for-emotion"
 	},
 	"author":{
