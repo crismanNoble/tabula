@@ -88,9 +88,9 @@ body {
 .bookInfo {
 	width: 50%;
 	position: relative;
-	float:left;
+	float: right;
 	box-sizing: border-box;
-  	padding-left:20px;
+  padding-left:20px;
 }
 
 .bookNav {
