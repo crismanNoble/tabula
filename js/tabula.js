@@ -1139,7 +1139,7 @@ var bookData = [{
 },{
 	"title":{
 		"name":"Design for the Real World",
-		"link":"http://www.maban.co.uk/projects/front-end-style-guides/"
+		"link":"https://en.wikipedia.org/wiki/Victor_Papanek"
 	},
 	"author":{
 		"name":"Victor J. Papanek",
@@ -1157,9 +1157,8 @@ var bookData = [{
 			"number":"978-0-394-47036-8"
 		}
 	],
-	"pages":"69",
+	"pages":"339",
 	"read":"2014-06-16",
-	//"read":"2013-06-16",
 	"subjects":[
 		"Design",
 		"Politics"
@@ -1172,6 +1171,49 @@ var bookData = [{
 	],
 	"rating":"5",
 	"description":"Mike Monteiro was right, this book will change your outlook on life. Papanek lays out the case for how designers' neglect of integrity has ruined the world and filled it with crap, and then makes the case for how design will become the only meaningful profession in the near future so it is up to designers to change the world for the better."
+},{
+	"title":{
+		"name":"Terra Nova",
+		"link":"http://www.abramsbooks.com/Books/Terra_Nova-9781419704345.html"
+	},
+	"author":{
+		"name":"Eric W. Sanderson",
+		"link":"http://welikia.org/about/biographical-sketch-for-eric-w-sanderson/"
+	},
+	"publisher":{
+		"name":"Abrams Books",
+		"link":"http://www.abramsbooks.com/"
+	},
+	"year":"1971",
+	"cover":"./covers/terra.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"1-4197-0434-6"
+		},{
+			"name":"EAN",
+			"number":"9781419704345"
+		}
+	],
+	"pages":"352",
+	"read":"2014-06-30",
+	"subjects":[
+		"Envionment",
+		"Oil",
+		"Green",
+		"Politics"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://www.abramsbooks.com/Books/Terra_Nova-9781419704345.html"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Terra-Nova-World-After-Suburbs/dp/1419704346/ref=la_B001JSAI8Q_1_2?ie=UTF8&qid=1370363087&sr=1-2"
+		}
+	],
+	"rating":"3",
+	"description":"Starting off with the history of how American's have strangled themselves with oil, and finishing off with a vision of an car free economy, Sanderson makes some compelling arguments. The well thought out section about ecological use fees is practical but perhaps a bit too polictical for many. Although I share many sentiments with Sanderson, I think he may be a bit too idealistic when it comes to Americans' capacity to stomach large scale change."
 }
 	
 ];
