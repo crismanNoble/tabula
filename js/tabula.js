@@ -1214,9 +1214,44 @@ var bookData = [{
 	],
 	"rating":"3",
 	"description":"Starting off with the history of how American's have strangled themselves with oil, and finishing off with a vision of an car free economy, Sanderson makes some compelling arguments. The well thought out section about ecological use fees is practical but perhaps a bit too polictical for many. Although I share many sentiments with Sanderson, I think he may be a bit too idealistic when it comes to Americans' capacity to stomach large scale change."
-}
-	
-];
+},{
+	"title":{
+		"name":"Sass For Web Designers",
+		"link":"http://www.abookapart.com/products/sass-for-web-designers"
+	},
+	"author":{
+		"name":"Dan Cederholm",
+		"link":"http://simplebits.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2010",
+	"cover":"./covers/aba10.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1-9375571-2-6"
+		}
+	],
+	"pages":"97",
+	"read":"2014-07-08",
+	"subjects":[
+		"CSS","SASS","Design","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/sass-for-web-designers"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/why-sass"
+		}
+	],
+	"rating":"3",
+	"description":"Short and simple, this is a good book to give a CSS wizard who is too set in their ways to use a preprocessor."
+}];
 $(document).ready(function(){
 	// console.log('doin work ready');
 	// $.getJSON('./books.json',function(data){
