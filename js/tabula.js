@@ -1046,7 +1046,7 @@ var bookData = [{
 	],
 	"pages":"256",
 	"read":"2013-12-01",
-	"subjects":["business","optimisim","SOPA"],
+	"subjects":["business","optimism","SOPA"],
 	"links":[
 		{
 			"title":"Open Library",
@@ -1184,7 +1184,7 @@ var bookData = [{
 		"name":"Abrams Books",
 		"link":"http://www.abramsbooks.com/"
 	},
-	"year":"1971",
+	"year":"2013",
 	"cover":"./covers/terra.jpg",
 	"numbers":[
 		{
@@ -1227,7 +1227,7 @@ var bookData = [{
 		"name":"A Book Apart",
 		"link":"http://www.abookapart.com/"
 	},
-	"year":"2010",
+	"year":"2013",
 	"cover":"./covers/aba10.svg",
 	"numbers":[
 		{
@@ -1251,7 +1251,48 @@ var bookData = [{
 	],
 	"rating":"3",
 	"description":"Short and simple, this is a good book to give a CSS wizard who is too set in their ways to use a preprocessor."
-}];
+},{
+	"title":{
+		"name":"Operating Manual For Spaceship Earth",
+		"link":"http://www.lars-mueller-publishers.com/en/catalogue-architecture/operating-manual-for-spaceship-earth-238"
+	},
+	"author":{
+		"name":"R. Buckminster Fuller",
+		"link":"http://buckminsterfuller.net/"
+	},
+	"publisher":{
+		"name":"Lars Müller Publishers",
+		"link":"http://lars-muller-publishers.con"
+	},
+	"year":"1969",
+	"cover":"./covers/omse.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-3-03778-126-5"
+		}
+	],
+	"pages":"152",
+	"read":"2014-07-21",
+	"subjects":[
+		"Design",
+		"Politics",
+		"Optimism",
+		"Engineering",
+		"Economics"
+	],
+	"links":[
+		{
+			"title":"Open Library",
+			"link":"https://openlibrary.org/books/OL13539418M/Operating_manual_for_spaceship_earth"
+		}, {
+			"title":"Direct Purchase",
+			"link":"http://www.lars-mueller-publishers.com/en/catalogue-architecture/operating-manual-for-spaceship-earth-238"
+		}
+	],
+	"rating":"5",
+	"description":"This book reads lightning fast and feels like a conversation with a genius. Bucky knows that humanaity has the capacity to care for all of the inhabitants of Spaceship Earth, and wants nothing more than for us to realize this and start making progress."
+},];
 $(document).ready(function(){
 	// console.log('doin work ready');
 	// $.getJSON('./books.json',function(data){
