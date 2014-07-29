@@ -1292,7 +1292,51 @@ var bookData = [{
 	],
 	"rating":"5",
 	"description":"This book reads lightning fast and feels like a conversation with a genius. Bucky knows that humanaity has the capacity to care for all of the inhabitants of Spaceship Earth, and wants nothing more than for us to realize this and start making progress."
-},];
+},{
+	"title":{
+		"name":"The Vignelli Canon",
+		"link":"http://vignelli.com/home/bookmagazine/canon.html"
+	},
+	"author":{
+		"name":"Massimo Vignelli",
+		"link":"http://vignelli.com/"
+	},
+	"publisher":{
+		"name":"Lars Müller Publishers",
+		"link":"http://lars-muller-publishers.con"
+	},
+	"year":"2010",
+	"cover":"./covers/canon.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-3037782255"
+		}, {
+			"name":"OLN",
+			"number":"OL25556516M"
+		}
+	],
+	"pages":"112",
+	"read":"2014-07-28",
+	"subjects":[
+		"Design",
+		"Craft"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/3037782250/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=3037782250&linkCode=as2&tag=doonthwe-20&linkId=6OKBQKSCZCTKOLUN"
+		}, {
+			"title":"Free PDF from the Authors",
+			"link":"http://www.vignelli.com/canon.pdf"
+		},{
+			"title":"Open Library",
+			"link":"https://openlibrary.org/books/OL25556516M/The_Vignelli_Canon"
+		}
+	],
+	"rating":"5",
+	"description":"A manefiesto calling for the preservation of the role of craftsmanship in design, the Vignelli's are an epic duo who lay out their thinking and rules to live by. A must read for any designer."
+}];
 $(document).ready(function(){
 	// console.log('doin work ready');
 	// $.getJSON('./books.json',function(data){
