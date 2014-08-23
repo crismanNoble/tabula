@@ -1338,7 +1338,7 @@ var bookData = [{
 	"description":"A manefiesto calling for the preservation of the role of craftsmanship in design, the Vignelli's are an epic duo who lay out their thinking and rules to live by. A must read for any designer."
 },{
 	"title":{
-		"name":"A Game Of Thrones",
+		"name":"A Clash of Kings",
 		"link":"http://www.georgerrmartin.com/grrm_book/a-clash-of-kings-a-song-of-ice-and-fire-book-two/"
 	},
 	"author":{
