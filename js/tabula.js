@@ -1336,7 +1336,42 @@ var bookData = [{
 	],
 	"rating":"5",
 	"description":"A manefiesto calling for the preservation of the role of craftsmanship in design, the Vignelli's are an epic duo who lay out their thinking and rules to live by. A must read for any designer."
-}];
+},{
+	"title":{
+		"name":"A Game Of Thrones",
+		"link":"http://www.georgerrmartin.com/grrm_book/a-clash-of-kings-a-song-of-ice-and-fire-book-two/"
+	},
+	"author":{
+		"name":"George R. R. Martin",
+		"link":"http://www.georgerrmartin.com/"
+	},
+	"publisher":{
+		"name":"Bantam",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"2002",
+	"cover":"./covers/asoiaf2.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0553381695"
+		}
+	],
+	"pages":"784",
+	"read":"2014-08-21",
+	"method":"audio",
+	"subjects":[
+		"fiction","fantasy"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Clash-Kings-Song-Fire-Thrones/dp/0307987647/ref=sr_sp-atf_image_1_4?s=books&ie=UTF8&qid=1408810913&sr=1-4&keywords=a+song+of+ice+and+fire+audiobook"
+		}
+	],
+	"rating":"5",
+	"description":"I love listening to A Song Of Ice And Fire on my commutes, however it sometimes is awkward heading into work filled with all the emotions of the seven kingdoms."
+},];
 $(document).ready(function(){
 	// console.log('doin work ready');
 	// $.getJSON('./books.json',function(data){
