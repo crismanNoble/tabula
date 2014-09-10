@@ -1,4 +1,5 @@
-[{
+var bookData = [
+{
 	"title":{
 		"name":"The Lean Startup",
 		"link":"http://theleanstartup.com/"
@@ -804,7 +805,7 @@
 	"description":"Mitchell goes much further into the stories than the movie could possibly fit in a couple hours. Worth the read, especially if you enjoyed the movie."
 },{
 	"title":{
-		"name":"Emotional Design",
+		"name":"Designing For Emotion",
 		"link":"http://www.abookapart.com/products/designing-for-emotion"
 	},
 	"author":{
@@ -1045,7 +1046,7 @@
 	],
 	"pages":"256",
 	"read":"2013-12-01",
-	"subjects":["business","optimisim","SOPA"],
+	"subjects":["business","optimism","SOPA"],
 	"links":[
 		{
 			"title":"Open Library",
@@ -1120,8 +1121,8 @@
 		}
 	],
 	"pages":"69",
-	//"read":"2014-04-02",
-	"read":"2013-04-02",
+	"read":"2014-04-02",
+	//"read":"2013-04-02",
 	"subjects":[
 		"Development",
 		"CSS",
@@ -1138,7 +1139,7 @@
 },{
 	"title":{
 		"name":"Design for the Real World",
-		"link":"http://www.maban.co.uk/projects/front-end-style-guides/"
+		"link":"https://en.wikipedia.org/wiki/Victor_Papanek"
 	},
 	"author":{
 		"name":"Victor J. Papanek",
@@ -1156,9 +1157,8 @@
 			"number":"978-0-394-47036-8"
 		}
 	],
-	"pages":"69",
-	//"read":"2014-06-16",
-	"read":"2013-06-16",
+	"pages":"339",
+	"read":"2014-06-16",
 	"subjects":[
 		"Design",
 		"Politics"
@@ -1171,6 +1171,290 @@
 	],
 	"rating":"5",
 	"description":"Mike Monteiro was right, this book will change your outlook on life. Papanek lays out the case for how designers' neglect of integrity has ruined the world and filled it with crap, and then makes the case for how design will become the only meaningful profession in the near future so it is up to designers to change the world for the better."
-}
-	
-]
+},{
+	"title":{
+		"name":"Terra Nova",
+		"link":"http://www.abramsbooks.com/Books/Terra_Nova-9781419704345.html"
+	},
+	"author":{
+		"name":"Eric W. Sanderson",
+		"link":"http://welikia.org/about/biographical-sketch-for-eric-w-sanderson/"
+	},
+	"publisher":{
+		"name":"Abrams Books",
+		"link":"http://www.abramsbooks.com/"
+	},
+	"year":"2013",
+	"cover":"./covers/terra.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"1-4197-0434-6"
+		},{
+			"name":"EAN",
+			"number":"9781419704345"
+		}
+	],
+	"pages":"352",
+	"read":"2014-06-30",
+	"subjects":[
+		"Envionment",
+		"Oil",
+		"Green",
+		"Politics"
+	],
+	"links":[
+		{
+			"title":"Publisher",
+			"link":"http://www.abramsbooks.com/Books/Terra_Nova-9781419704345.html"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Terra-Nova-World-After-Suburbs/dp/1419704346/ref=la_B001JSAI8Q_1_2?ie=UTF8&qid=1370363087&sr=1-2"
+		}
+	],
+	"rating":"3",
+	"description":"Starting off with the history of how American's have strangled themselves with oil, and finishing off with a vision of an car free economy, Sanderson makes some compelling arguments. The well thought out section about ecological use fees is practical but perhaps a bit too polictical for many. Although I share many sentiments with Sanderson, I think he may be a bit too idealistic when it comes to Americans' capacity to stomach large scale change."
+},{
+	"title":{
+		"name":"Sass For Web Designers",
+		"link":"http://www.abookapart.com/products/sass-for-web-designers"
+	},
+	"author":{
+		"name":"Dan Cederholm",
+		"link":"http://simplebits.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2013",
+	"cover":"./covers/aba10.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1-9375571-2-6"
+		}
+	],
+	"pages":"97",
+	"read":"2014-07-08",
+	"subjects":[
+		"CSS","SASS","Design","Development"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/sass-for-web-designers"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/why-sass"
+		}
+	],
+	"rating":"3",
+	"description":"Short and simple, this is a good book to give a CSS wizard who is too set in their ways to use a preprocessor."
+},{
+	"title":{
+		"name":"Operating Manual For Spaceship Earth",
+		"link":"http://www.lars-mueller-publishers.com/en/catalogue-architecture/operating-manual-for-spaceship-earth-238"
+	},
+	"author":{
+		"name":"R. Buckminster Fuller",
+		"link":"http://buckminsterfuller.net/"
+	},
+	"publisher":{
+		"name":"Lars Müller Publishers",
+		"link":"http://lars-muller-publishers.con"
+	},
+	"year":"1969",
+	"cover":"./covers/omse.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-3-03778-126-5"
+		}
+	],
+	"pages":"152",
+	"read":"2014-07-21",
+	"subjects":[
+		"Design",
+		"Politics",
+		"Optimism",
+		"Engineering",
+		"Economics"
+	],
+	"links":[
+		{
+			"title":"Open Library",
+			"link":"https://openlibrary.org/books/OL13539418M/Operating_manual_for_spaceship_earth"
+		}, {
+			"title":"Direct Purchase",
+			"link":"http://www.lars-mueller-publishers.com/en/catalogue-architecture/operating-manual-for-spaceship-earth-238"
+		}
+	],
+	"rating":"5",
+	"description":"This book reads lightning fast and feels like a conversation with a genius. Bucky knows that humanaity has the capacity to care for all of the inhabitants of Spaceship Earth, and wants nothing more than for us to realize this and start making progress."
+},{
+	"title":{
+		"name":"The Vignelli Canon",
+		"link":"http://vignelli.com/home/bookmagazine/canon.html"
+	},
+	"author":{
+		"name":"Massimo Vignelli",
+		"link":"http://vignelli.com/"
+	},
+	"publisher":{
+		"name":"Lars Müller Publishers",
+		"link":"http://lars-muller-publishers.con"
+	},
+	"year":"2010",
+	"cover":"./covers/canon.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-3037782255"
+		}, {
+			"name":"OLN",
+			"number":"OL25556516M"
+		}
+	],
+	"pages":"112",
+	"read":"2014-07-28",
+	"subjects":[
+		"Design",
+		"Craft"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/3037782250/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=3037782250&linkCode=as2&tag=doonthwe-20&linkId=6OKBQKSCZCTKOLUN"
+		}, {
+			"title":"Free PDF from the Authors",
+			"link":"http://www.vignelli.com/canon.pdf"
+		},{
+			"title":"Open Library",
+			"link":"https://openlibrary.org/books/OL25556516M/The_Vignelli_Canon"
+		}
+	],
+	"rating":"5",
+	"description":"A manefiesto calling for the preservation of the role of craftsmanship in design, the Vignelli's are an epic duo who lay out their thinking and rules to live by. A must read for any designer."
+},{
+	"title":{
+		"name":"A Clash of Kings",
+		"link":"http://www.georgerrmartin.com/grrm_book/a-clash-of-kings-a-song-of-ice-and-fire-book-two/"
+	},
+	"author":{
+		"name":"George R. R. Martin",
+		"link":"http://www.georgerrmartin.com/"
+	},
+	"publisher":{
+		"name":"Bantam",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"2002",
+	"cover":"./covers/asoiaf2.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0553381695"
+		}
+	],
+	"pages":"784",
+	"read":"2014-08-21",
+	"method":"audio",
+	"subjects":[
+		"fiction","fantasy"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Clash-Kings-Song-Fire-Thrones/dp/0307987647/ref=sr_sp-atf_image_1_4?s=books&ie=UTF8&qid=1408810913&sr=1-4&keywords=a+song+of+ice+and+fire+audiobook"
+		}
+	],
+	"rating":"5",
+	"description":"I love listening to A Song Of Ice And Fire on my commutes, however it sometimes is awkward heading into work filled with all the emotions of the seven kingdoms."
+},{
+	"title":{
+		"name":"On Web Typography",
+		"link":"http://www.abookapart.com/products/on-web-typography"
+	},
+	"author":{
+		"name":"Jason Santa Maria",
+		"link":"http://jasonsantamaria.com/"
+	},
+	"publisher":{
+		"name":"A Book Apart",
+		"link":"http://www.abookapart.com/"
+	},
+	"year":"2014",
+	"cover":"./covers/aba11.svg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-1-9375570-6-5"
+		}
+	],
+	"pages":"142",
+	"read":"2014-08-30",
+	"subjects":[
+		"Design","Typography","Web"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://www.abookapart.com/products/on-web-typography"
+		},{
+			"title":"Chapter Preview",
+			"link":"http://alistapart.com/article/how-we-read"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/1937557073/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1937557073&linkCode=as2&tag=doonthwe-20&linkId=ZM4USZA3KNYZUSPW"
+		}
+	],
+	"rating":"5",
+	"description":"As a wannabe designer, this book was extremely informative. I learned all about x-heights and counters and ems not being related to the letter M, how to evaluate and pick fonts based on the situation. Equal parts typography theory and web application, this book will provide a great first step for anyone interested in web design, web development or web usability. Which is to say anyone who works on the internet."
+},{
+	"title":{
+		"name":"From Bauhaus To Our House",
+		"link":"http://www.tomwolfe.com/Bauhaus.html"
+	},
+	"author":{
+		"name":"Tom Wolfe",
+		"link":"http://www.tomwolfe.com/"
+	},
+	"publisher":{
+		"name":"Farrar, Straus & Giroux",
+		"link":"http://us.macmillan.com/fsg"
+	},
+	"year":"1981",
+	"cover":"./covers/ourhouse.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"0-374-15892-4"
+		}
+	],
+	"pages":"143",
+	"read":"2014-09-10",
+	"subjects":[
+		"Architecture","Modernism"
+	],
+	"links":[
+		{
+			"title":"Direct Purchase",
+			"link":"http://us.macmillan.com/books/9780312429140"
+		},{
+			"title":"Free Exerpt",
+			"link":"http://www.tomwolfe.com/BauhausExcerpt.html"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0312429142/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0312429142&linkCode=as2&tag=doonthwe-20&linkId=NENYSM7DQ4AZZ4UJ"
+		},{
+			"title":"Wikipedia",
+			"link":"http://en.wikipedia.org/wiki/From_Bauhaus_to_Our_House"
+		},{
+			"title":"Open Library",
+			"link":"https://openlibrary.org/works/OL16478703W/From_Bauhaus_to_our_house"
+		}
+	],
+	"rating":"3",
+	"description":"Tom Wolfe rips into modern architecture and the people who have spread their oft ironic theories throughout the first half of the twentieth century. Funny and informative, Tom Wolfe can tell it like it is."
+}];
