@@ -1457,4 +1457,39 @@ var bookData = [
 	],
 	"rating":"3",
 	"description":"Tom Wolfe rips into modern architecture and the people who have spread their oft ironic theories throughout the first half of the twentieth century. Funny and informative, Tom Wolfe can tell it like it is."
-}];
+},{
+	"title":{
+		"name":"A Storm of Swords",
+		"link":"http://www.georgerrmartin.com/grrm_book/a-storm-of-swords-a-song-of-ice-and-fire-book-three/"
+	},
+	"author":{
+		"name":"George R. R. Martin",
+		"link":"http://www.georgerrmartin.com/"
+	},
+	"publisher":{
+		"name":"Bantam",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"2003",
+	"cover":"./covers/asoiaf3.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0449011909"
+		}
+	],
+	"pages":"1216",
+	"read":"2014-09-21",
+	"method":"audio",
+	"subjects":[
+		"fiction","fantasy"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0449011909/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0449011909&linkCode=as2&tag=doonthwe-20&linkId=MLMSIPMA7SNWDCFA"
+		}
+	],
+	"rating":"5",
+	"description":"I finally caught up and surpassed the TV series. I am completely addicted."
+},];
