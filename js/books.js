@@ -1539,4 +1539,45 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"Part essay collection, part photo book, this hefty book deserves a spot on any designer's shelf. Shepard and his peers explore the history and meaning of the phenomonon that all started as a simple Andre the Giant sticker campaign."
-}];
+},{
+	"title":{
+		"name":"A Feast for Crows",
+		"link":"http://www.georgerrmartin.com/grrm_book/a-feast-for-crows-a-song-of-ice-and-fire-book-four/"
+	},
+	"author":{
+		"name":"George R. R. Martin",
+		"link":"http://www.georgerrmartin.com/"
+	},
+	"publisher":{
+		"name":"Bantam",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"2003",
+	"cover":"./covers/asoiaf4.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0449011911"
+		}
+	],
+	"pages":"976",
+	"read":"2014-10-13",
+	"method":"audio",
+	"subjects":[
+		"fiction","fantasy"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0449011917/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0449011917&linkCode=as2&tag=doonthwe-20&linkId=Q5BKQQLW6N73O36G"
+		}, {
+			"title":"Wikipedia",
+			"link":"http://en.wikipedia.org/wiki/A_Feast_for_Crows"
+		}, {
+			"title":"audio book",
+			"link":"http://www.randomhouse.com/audio/catalog/display.php?isbn=9780449011881"
+		}
+	],
+	"rating":"5",
+	"description":"Book 4 did not disappoint, 10/10 would read again."
+},];
