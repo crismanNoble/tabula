@@ -1492,4 +1492,51 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"I finally caught up and surpassed the TV series. I am completely addicted."
-},];
+},{
+	"title":{
+		"name":"Obey: Supply & Demand",
+		"link":"http://www.obeygiant.com/store/product.php?productid=97"
+	},
+	"author":{
+		"name":"Shepard Fairey",
+		"link":"http://obeygiant.com"
+	},
+	"publisher":{
+		"name":"Gingko Press",
+		"link":"http://gingkopress.com/"
+	},
+	"year":"2009",
+	"cover":"./covers/obey.jpg",
+	"numbers":[
+		{
+			"name":"ISBN",
+			"number":"1584233494"
+
+		},{
+			"name":"Open Library",
+			"number":"OL24662289M"
+		}
+	],
+	"pages":"446",
+	"read":"2014-10-07",
+	"subjects":[
+		"design","art","street art"
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/1584233494/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1584233494&linkCode=as2&tag=doonthwe-20&linkId=KCWD3RAAHKV2FELH"
+		},{
+			"title":"Direct Purchase (Publisher)",
+			"link":"http://gingkopress.com/shop/obey-supply-and-demand/"
+		},{
+			"title":"Direct Purchase (Author)",
+			"link":"http://www.obeygiant.com/store/product.php?productid=97"
+		}, {
+			"title":"Open Library",
+			"link":"https://openlibrary.org/books/OL24662289M/OBEY_Supply_Demand_-_20th_Anniversary_Edition_Deluxe_Edition"
+		}
+	],
+	"rating":"5",
+	"description":"Part essay collection, part photo book, this hefty book deserves a spot on any designer's shelf. Shepard and his peers explore the history and meaning of the phenomonon that all started as a simple Andre the Giant sticker campaign."
+}];
