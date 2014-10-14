@@ -10,50 +10,75 @@
 	<link rel="stylesheet" type"text/css" href="css/style.css">
 
 	<script src="js/jquery.js"></script>
-	<!--<script src="http://mksht.com/tally/tally.js"></script>-->
-	<script src="js/jquerypp.custom.js"></script>
 	<script src="js/handlebars.js"></script>
 
 	<script src="js/books.js"></script>
 	<script src="js/tabula.js"></script>
-	<!--<script src="js/tally.events.js"></script>-->
+
+	<script id="book-template" type="text/x-handlebars-template">
+		<img src="{{cover}}" class="coverImage" />
+		<div class="bookInfo">
+			<h2 class="bookTitle">
+				<a href="{{title.link}}" class="numberLinks" id="title">{{{title.name}}}</a>
+			</h2>
+			<h3 class="author">
+				<a href="{{author.link}}" class="numberLinks" id="author">{{{author.name}}}</a>
+				<br/>
+				<a href="{{publisher.link}}" class="numberLinks" id="publisher">{{{publisher.name}}}</a>
+			</h3>
+			<br/>
+			<h3 class="author" id="year">{{year}}</h3>
+			<div class="divider"></div>
+			<div id="numbers">
+				{{#each numbers}}
+				{{#if link}}
+				<p class="bookDescription">
+					<a href="{{link}}">{{name}}: {{number}}</a>
+				</p>
+				{{else}}
+				<p class="bookDescription">{{name}}: {{number}}</p>
+				{{/if}}
+				{{/each}}
+			</div>
+			<br/>
+			<p class="bookDescription" id="readDate">read: {{read}}</p>
+			<p class="bookDescription" id="pages">pages: {{pages}}</p>
+			<br/>
+			<p class="bookDescription" id="description">{{description}}</p>
+			<br/>
+			<p class="bookDescription" id="rating">{{stars rating}}</p>
+			<br/>
+			<p class="bookDescription" id="tags">
+				{{#each subjects}}
+				<span class="tag">{{name}}</span>
+				{{/each}}
+			</p>
+			<br/>
+			<p class="bookDescription" id="links">
+			{{#each links}}
+				<a href="{{link}}" class="externalLink">{{title}}</a> 
+			{{/each}}	
+			</p>
+		</div>
+		<div class="clear"></div>
+	</script>
 
 </head>
 <body>
 <div class="wrapper">
 	<div class="header italic" id="timeline" data-timelineYear="2013">
-<!-- 		<span class="century">20</span>13 -->
 	<span class="newYear"></span>
 	</div>
 	<div class="header" id="navbar">
 		<div class="bookNav">
-			<a href="#" class="bookNavLink italic" id="prev">prev</a> | <span id="currentCount" class="italic">4</span> of <span id="totalCount" class="italic">17</span><!-- / <a href="#" class="bookNavLink" id="prev">all</a>--> | <a href="#" class="bookNavLink italic" id="next">next</a>
+			<a href="#" class="bookNavLink italic" id="prev">prev</a> | <span class="darkened"><span id="currentCount" class="italic">4</span> of <span id="totalCount" class="italic">17</span></span> | <a href="#" class="bookNavLink italic" id="next">next</a>
 		</div>
 	</div>
 	
 	<div class="bookArea">
-		<img src="" class="coverImage"/>
-		<div class="bookInfo">
-			<h2 class="bookTitle"><a href="#" class="numberLinks" id="title"></a></h2>
-			<h3 class="author"><a href="#" class="numberLinks" id="author"></a><br/><a href="#" class="numberLinks" id="publisher"></a></h3>
-			<br/><h3 class="author" id="year"></h3>
-			<div class="divider"></div>
-			<div id="numbers">
-			</div>
-			<br/>
-			<p class="bookDescription" id="readDate"></p>
-			<p class="bookDescription" id="pages"></p>
-			<br/>
-			<p class="bookDescription" id="description"></p>
-			<br/>
-			<p class="bookDescription" id="rating"></p>
-			<br/>
-			<p class="bookDescription" id="tags"></p>
-			<br/>
-			<p class="bookDescription" id="links"></p>
-		</div>
-		<div class="clear"></div>
+		<!-- book template gets put here -->
 	</div>
+
 	<div class="bookNav2">
 		
 	</div>

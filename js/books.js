@@ -30,9 +30,9 @@ var bookData = [
 	"pages":"336",
 	"read":"2013-01-11",
 	"subjects":[
-		"Business",
-		"Non-Fiction",
-		"Entrepreneurship"
+		{"name":"Business"},
+		{"name":"Non-Fiction"},
+		{"name":"Entrepreneurship"}
 	],
 	"links":[
 		{
@@ -73,7 +73,7 @@ var bookData = [
 	"pages":"127",
 	"read":"2013-01-30",
 	"subjects":[
-		"UX","design"
+		{"name":"UX"},{"name":"design"}
 	],
 	"links":[
 		{
@@ -108,6 +108,9 @@ var bookData = [
 			"name":"Open Library",
 			"number":"OL25075320M"
 		}
+	],
+	"subjects":[
+		{"name":"design"},{"name":"information visualization"},{"name":"data"}
 	],
 	"pages":"272",
 	"read":"2013-02-10",
@@ -145,7 +148,7 @@ var bookData = [
 	"pages":"160",
 	"read":"2013-02-11",
 	"subjects":[
-		"non-fiction","information overload"
+		{"name":"non-fiction"},{"name":"information overload"}
 	],
 	"links":[
 		{
@@ -184,7 +187,7 @@ var bookData = [
 	"pages":"70",
 	"read":"2013-02-25",
 	"subjects":[
-		"programming","information visualization","d3.js"
+		{"name":"programming"},{"name":"information visualization"},{"name":"d3.js"}
 	],
 	"links":[
 		{
@@ -220,7 +223,7 @@ var bookData = [
 	"pages":"320",
 	"read":"2013-03-09",
 	"subjects":[
-		"design","collaboration"
+		{"name":"design"},{"name":"collaboration"}
 	],
 	"links":[
 		{
@@ -259,7 +262,7 @@ var bookData = [
 	"pages":"85",
 	"read":"2013-03-11",
 	"subjects":[
-		"business","starting"
+		{"name":"business"},{"name":"starting"}
 	],
 	"links":[
 		{
@@ -302,7 +305,7 @@ var bookData = [
 	"pages":"60",
 	"read":"2013-03-18",
 	"subjects":[
-		"Node.js","Development","Programming"
+		{"name":"Node.js"},{"name":"Development"},{"name":"Programming"}
 	],
 	"links":[
 		{
@@ -339,7 +342,7 @@ var bookData = [
 	"pages":"392",
 	"read":"2013-03-25",
 	"subjects":[
-		"PHP","CURL","Bots","Development","Programming"
+		{"name":"PHP"},{"name":"CURL"},{"name":"Bots"},{"name":"Development"},{"name":"Programming"}
 	],
 	"links":[
 		{
@@ -376,7 +379,7 @@ var bookData = [
 	"pages":"272",
 	"read":"2013-04-02",
 	"subjects":[
-		"HTML","CSS","SVG","D3.js","Data Visualization"
+		{"name":"HTML"},{"name":"CSS"},{"name":"SVG"},{"name":"D3.js"},{"name":"Data Visualization"}
 	],
 	"links":[
 		{
@@ -416,7 +419,7 @@ var bookData = [
 	"pages":"151",
 	"read":"2013-04-13",
 	"subjects":[
-		"Business","Leadership","Motivation"
+		{"name":"Business"},{"name":"Leadership"},{"name":"Motivation"}
 	],
 	"links":[
 		{
@@ -450,7 +453,7 @@ var bookData = [
 	"pages":"328",
 	"read":"2013-04-20",
 	"subjects":[
-		"Javascript","Backbone.js","MV*"
+		{"name":"Javascript"},{"name":"Backbone.js"},{"name":"MV*"}
 	],
 	"links":[
 		{
@@ -493,7 +496,7 @@ var bookData = [
 	"pages":"272",
 	"read":"2013-05-15",
 	"subjects":[
-		"Essays","Startups","Programming","Business"
+		{"name":"Essays"},{"name":"Startups"},{"name":"Programming"},{"name":"Business"}
 	],
 	"links":[
 		{
@@ -533,7 +536,7 @@ var bookData = [
 	"pages":"112",
 	"read":"2013-05-16",
 	"subjects":[
-		"CSS","Programming","Development"
+		{"name":"CSS"},{"name":"Programming"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -570,7 +573,7 @@ var bookData = [
 	"pages":"87",
 	"read":"2013-05-28",
 	"subjects":[
-		"HTML5","HTML","Programming","Development"
+		{"name":"HTML5"},{"name":"HTML"},{"name":"Programming"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -607,7 +610,7 @@ var bookData = [
 	"pages":"125",
 	"read":"2013-05-30",
 	"subjects":[
-		"CSS3","CSS","Design","Development"
+		{"name":"CSS"},{"name":"Design"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -644,7 +647,7 @@ var bookData = [
 	"pages":"81",
 	"read":"2013-06-05",
 	"subjects":[
-		"IA","Content Strategy","Business","Design"
+		{"name":"IA"},{"name":"Content Strategy"},{"name":"Business"},{"name":"Design"}
 	],
 	"links":[
 		{
@@ -682,7 +685,7 @@ var bookData = [
 	"read":"2013-06-06",
 	"method":"audio",
 	"subjects":[
-		"fiction","fantasy"
+		{"name":"fiction"},{"name":"fantasy"}
 	],
 	"links":[
 		{
@@ -716,7 +719,7 @@ var bookData = [
 	"pages":"150",
 	"read":"2013-06-13",
 	"subjects":[
-		"Design","Development"
+		{"name":"Design"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -753,7 +756,7 @@ var bookData = [
 	"pages":"130",
 	"read":"2013-06-30",
 	"subjects":[
-		"Design","Development"
+		{"name":"Design"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -790,7 +793,7 @@ var bookData = [
 	"pages":"528",
 	"read":"2013-07-03",
 	"subjects":[
-		"Fiction"
+		{"name":"Fiction"}
 	],
 	"links":[
 		{
@@ -827,7 +830,7 @@ var bookData = [
 	"pages":"104",
 	"read":"2013-07-12",
 	"subjects":[
-		"Design","Business"
+		{"name":"Design"},{"name":"Business"}
 	],
 	"links":[
 		{
@@ -864,7 +867,7 @@ var bookData = [
 	"pages":"226",
 	"read":"2013-08-09",
 	"subjects":[
-		"Design","Development"
+		{"name":"Design"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -898,7 +901,7 @@ var bookData = [
 	"pages":"374",
 	"read":"2013-10-30",
 	"subjects":[
-		"Fiction"
+		{"name":"Fiction"}
 	],
 	"links":[
 		{
@@ -936,7 +939,7 @@ var bookData = [
 	"pages":"222",
 	"read":"2013-11-02",
 	"subjects":[
-		"Fiction"
+		{"name":"Fiction"}
 	],
 	"links":[
 		{
@@ -970,7 +973,7 @@ var bookData = [
 	"pages":"256",
 	"read":"2013-11-12",
 	"subjects":[
-		"Business"
+		{"name":"Business"}
 	],
 	"links":[
 		{
@@ -1007,7 +1010,7 @@ var bookData = [
 	],
 	"pages":"416",
 	"read":"2013-11-26",
-	"subjects":["visualization","data","design","development"],
+	"subjects":[{"name":"visualization"},{"name":"data"},{"name":"design"},{"name":"development"}],
 	"links":[
 		{
 			"title":"Open Library",
@@ -1046,7 +1049,9 @@ var bookData = [
 	],
 	"pages":"256",
 	"read":"2013-12-01",
-	"subjects":["business","optimism","SOPA"],
+	"subjects":[
+		{"name":"business"},{"name":"optimism"},{"name":"SOPA"}
+	],
 	"links":[
 		{
 			"title":"Open Library",
@@ -1083,7 +1088,7 @@ var bookData = [
 	"pages":"136",
 	"read":"2013-12-27",
 	"subjects":[
-		"Design","Business"
+		{"name":"Design"},{"name":"Business"}
 	],
 	"links":[
 		{
@@ -1122,11 +1127,10 @@ var bookData = [
 	],
 	"pages":"69",
 	"read":"2014-04-02",
-	//"read":"2013-04-02",
 	"subjects":[
-		"Development",
-		"CSS",
-		"HTML"
+		{"name":"Development"},
+		{"name":"CSS"},
+		{"name":"HTML"}
 	],
 	"links":[
 		{
@@ -1160,8 +1164,8 @@ var bookData = [
 	"pages":"339",
 	"read":"2014-06-16",
 	"subjects":[
-		"Design",
-		"Politics"
+		{"name":"Design"},
+		{"name":"Politics"}
 	],
 	"links":[
 		{
@@ -1198,10 +1202,10 @@ var bookData = [
 	"pages":"352",
 	"read":"2014-06-30",
 	"subjects":[
-		"Envionment",
-		"Oil",
-		"Green",
-		"Politics"
+		{"name":"Envionment"},
+		{"name":"Oil"},
+		{"name":"Green"},
+		{"name":"Politics"}
 	],
 	"links":[
 		{
@@ -1238,7 +1242,7 @@ var bookData = [
 	"pages":"97",
 	"read":"2014-07-08",
 	"subjects":[
-		"CSS","SASS","Design","Development"
+		{"name":"CSS"},{"name":"SASS"},{"name":"Design"},{"name":"Development"}
 	],
 	"links":[
 		{
@@ -1261,7 +1265,7 @@ var bookData = [
 		"link":"http://buckminsterfuller.net/"
 	},
 	"publisher":{
-		"name":"Lars Müller Publishers",
+		"name":"Lars M&uuml;ller Publishers",
 		"link":"http://lars-muller-publishers.con"
 	},
 	"year":"1969",
@@ -1275,11 +1279,11 @@ var bookData = [
 	"pages":"152",
 	"read":"2014-07-21",
 	"subjects":[
-		"Design",
-		"Politics",
-		"Optimism",
-		"Engineering",
-		"Economics"
+		{"name":"Design"},
+		{"name":"Politics"},
+		{"name":"Optimism"},
+		{"name":"Engineering"},
+		{"name":"Economics"}
 	],
 	"links":[
 		{
@@ -1302,7 +1306,7 @@ var bookData = [
 		"link":"http://vignelli.com/"
 	},
 	"publisher":{
-		"name":"Lars Müller Publishers",
+		"name":"Lars M&uuml;ller Publishers",
 		"link":"http://lars-muller-publishers.con"
 	},
 	"year":"2010",
@@ -1319,8 +1323,8 @@ var bookData = [
 	"pages":"112",
 	"read":"2014-07-28",
 	"subjects":[
-		"Design",
-		"Craft"
+		{"name":"Design"},
+		{"name":"Craft"}
 	],
 	"links":[
 		{
@@ -1361,7 +1365,7 @@ var bookData = [
 	"read":"2014-08-21",
 	"method":"audio",
 	"subjects":[
-		"fiction","fantasy"
+		{"name":"fiction"},{"name":"fantasy"}
 	],
 	"links":[
 		{
@@ -1395,7 +1399,7 @@ var bookData = [
 	"pages":"142",
 	"read":"2014-08-30",
 	"subjects":[
-		"Design","Typography","Web"
+		{"name":"Design"},{"name":"Typography"},{"name":"Web"}
 	],
 	"links":[
 		{
@@ -1435,7 +1439,7 @@ var bookData = [
 	"pages":"143",
 	"read":"2014-09-10",
 	"subjects":[
-		"Architecture","Modernism"
+		{"name":"Architecture"},{"name":"Modernism"}
 	],
 	"links":[
 		{
@@ -1482,7 +1486,7 @@ var bookData = [
 	"read":"2014-09-21",
 	"method":"audio",
 	"subjects":[
-		"fiction","fantasy"
+		{"name":"fiction"},{"name":"fantasy"}
 	],
 	"links":[
 		{
@@ -1520,7 +1524,7 @@ var bookData = [
 	"pages":"446",
 	"read":"2014-10-07",
 	"subjects":[
-		"design","art","street art"
+		{"name":"design"},{"name":"art"},{"name":"street art"}
 	],
 	"links":[
 		{
@@ -1564,7 +1568,7 @@ var bookData = [
 	"read":"2014-10-13",
 	"method":"audio",
 	"subjects":[
-		"fiction","fantasy"
+		{"name":"fiction"},{"name":"fantasy"}
 	],
 	"links":[
 		{
@@ -1580,4 +1584,4 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"Book 4 did not disappoint, 10/10 would read again."
-},];
+}];

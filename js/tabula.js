@@ -1,16 +1,24 @@
-$(document).ready(function(){
-	// console.log('doin work ready');
-	// $.getJSON('./books.json',function(data){
-	// 	console.log(data);
-	// 	bookData = data;
-	// 	console.log(bookData);
-		doWork();
-	// });
+Handlebars.registerHelper('stars', function(rating, options) {
+   var stars = parseInt(rating);
+	var starsFaded = 5 - stars;
+	var starString = '', fadedString = '';
 
+	for (var j = 0; j < stars; j++) {
+		starString += '*';
+	}
+	for (var k = 0; k <starsFaded; k++) {
+		fadedString += '*';
+	}
+
+	rating = 'rating: ' + starString + '<span class="faded">' + fadedString + '</span>';
+	return new Handlebars.SafeString(rating);
+});
+
+$(document).ready(function(){
+	doWork();
 });
 
 function doWork(){
-	console.log('doin work');
 	createBullets();
 
 	$('#totalCount').html(bookData.length);
@@ -80,8 +88,6 @@ function createBullets(){
 		var start = new Date(2013, 0, 0);
 		var date = new Date(yr,mo,da);
 
-		console.log(date);
-
 		var diff = Math.floor((date - start )/(1000 * 60 * 60 * 24));
 		var percent = Math.floor(1000*diff/730)/10;
 
@@ -115,112 +121,15 @@ function createBook(number){
 	clearBook();
 
 	$('#currentCount').html(parseInt(number) + 1);
-
-	var coverImage = bookData[number].cover;
-	$('.coverImage').attr('src',coverImage);
-
-	var title = bookData[number].title.name;
-	var titleLink = bookData[number].title.link;
-
-	$('#title').text(title);
-	$('#title').attr('href', titleLink);
-
-	var author = bookData[number].author.name;
-	var authorLink = bookData[number].author.link;
-
-	$('#author').text(author);
-	$('#author').attr('href',authorLink);
-
-	var publisher = bookData[number].publisher.name;
-	var publisherLink = bookData[number].publisher.link;
-
-	$('#publisher').text(publisher);
-	$('#publisher').attr('href',publisherLink);
-
-	var year = bookData[number].year;
-	$('#year').text(year);
-
-	var numbers = bookData[number].numbers;
-	for(var i = 0; i < numbers.length; i++){
-		var name = numbers[i].name;
-		var numberN = numbers[i].number;
-		var link = numbers[i].link;
-
-		var pTag = $(document.createElement('p'));
-		pTag.addClass('bookDescription');
-
-		if(link){
-			var aTag =  $(document.createElement('a'));
-			aTag.addClass('numberLinks');
-			aTag.attr('href',link);
-			aTag.text(name + ': ' + numberN);
-			pTag.append(aTag);
-		} else {
-			pTag.text(name + ': ' + numberN);
-		}
-
-		$('#numbers').append(pTag);
-	}
-
-	var readDate = bookData[number].read;
-	$('#readDate').text('read: ' + readDate);
-
-	var pages = bookData[number].pages;
-	$('#pages').text('pages: ' + pages);
-
-	var description = bookData[number].description;
-	$('#description').text(description);
-
-	var rating = bookData[number].rating;
-
-	var stars = parseInt(rating);
-	var starsFaded = 5 - stars;
-	var starString = '', fadedString = '';
-
-	for (var j = 0; j < stars; j++) {
-		starString += '*';
-	}
-	for (var k = 0; k <starsFaded; k++) {
-		fadedString += '*';
-	}
-
-	rating = 'rating: ' + starString + '<span class="faded">' + fadedString + '</span>';
-	$('#rating').html(rating);
-
-	var tags = bookData[number].subjects;
-	var tagString = 'subjects: ';
-
-	for (var k = 0; k < tags.length; k++) {
-		if (k == tags.length - 1){
-			tagString += tags[k];
-		} else {
-			tagString += tags[k] + ', ';
-		}
-	}
-	$('#tags').text(tagString);
-
-	var links = bookData[number].links;
-
-	$('#links').append('Links: ');
-
-	for (var l = 0; l < links.length; l++){
-
-		var aTag = $(document.createElement('a'));
-		aTag.text(links[l].title);
-		aTag.attr('href',links[l].link);
-		aTag.addClass('externalLink');
-
-
-
-		$('#links').append(aTag);
-
-		if (l < links.length - 1 ) {
-			$('#links').append(', ');
-		}
-
-	}
 	
 	updateLinks(number);
+
+	var source   = $("#book-template").html();
+	var template = Handlebars.compile(source);
+	var thisBook = bookData[number];
+	var html = template(thisBook);
+
+	$('.bookArea').html(html);
 	
 }
 

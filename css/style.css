@@ -96,9 +96,12 @@ body {
 .bookNav {
 	text-align: center;
 	color: #ccc;
-/*	font-style: italic;*/
 	font-family: Apollo;
 	text-decoration: none;
+}
+
+.darkened {
+	color: #999;
 }
 
 .bookNav2 {
@@ -114,10 +117,6 @@ body {
 .bookNavLink {
 	color: #666;
 	text-decoration: none;
-/*	-webkit-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-o-transition: all .3s linear;
-	transition: all .3s linear;*/
 }
 
 .bookNavLink:hover {
@@ -313,4 +312,16 @@ body {
 	#numbers {
 		margin-top: 20px;
 	}
+}
+
+.externalLink:after, .tag:after {
+	content: ',\0000a0';
+}
+
+.externalLink:after:hover, .tag:after:hover {
+	text-decoration: underline;
+}
+
+.externalLink:last-of-type:after, .tag:last-of-type:after {
+	content: '';
 }
