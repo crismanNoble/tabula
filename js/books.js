@@ -1607,7 +1607,7 @@ var bookData = [
 		}
 	],
 	"pages":"1040",
-	"read":"2014-10-13",
+	"read":"2014-11-25",
 	"method":"audio",
 	"subjects":[
 		{"name":"fiction"},{"name":"fantasy"}
