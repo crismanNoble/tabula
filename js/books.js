@@ -527,7 +527,7 @@ var bookData = [
 		"link":"http://snook.ca"
 	},
 	"year":"2012",
-	"cover":"./covers/smacss.png",
+	"cover":"./covers/smacss.jpg",
 	"numbers":[
 		{
 			"name":"ISBN13",
@@ -1119,7 +1119,7 @@ var bookData = [
 		"link":"http://www.fivesimplesteps.com/"
 	},
 	"year":"2013",
-	"cover":"./covers/fesg.png",
+	"cover":"./covers/fesg.jpg",
 	"numbers":[
 		{
 			"name":"ISBN",
