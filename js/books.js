@@ -1354,7 +1354,7 @@ var bookData = [
 		"name":"Bantam",
 		"link":"http://bantam-dell.atrandom.com/"
 	},
-	"year":"2002",
+	"year":"1998",
 	"cover":"./covers/asoiaf2.jpg",
 	"numbers":[
 		{
@@ -1475,7 +1475,7 @@ var bookData = [
 		"name":"Bantam",
 		"link":"http://bantam-dell.atrandom.com/"
 	},
-	"year":"2003",
+	"year":"2000",
 	"cover":"./covers/asoiaf3.jpg",
 	"numbers":[
 		{
@@ -1557,7 +1557,7 @@ var bookData = [
 		"name":"Bantam",
 		"link":"http://bantam-dell.atrandom.com/"
 	},
-	"year":"2003",
+	"year":"2005",
 	"cover":"./covers/asoiaf4.jpg",
 	"numbers":[
 		{
@@ -1585,4 +1585,45 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"Book 4 did not disappoint, 10/10 would read again."
+},{
+	"title":{
+		"name":"A Dance With Dragons",
+		"link":"http://www.georgerrmartin.com/grrm_book/a-dance-with-dragons/"
+	},
+	"author":{
+		"name":"George R. R. Martin",
+		"link":"http://www.georgerrmartin.com/"
+	},
+	"publisher":{
+		"name":"Bantam",
+		"link":"http://bantam-dell.atrandom.com/"
+	},
+	"year":"2011",
+	"cover":"./covers/asoiaf5.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0553801477"
+		}
+	],
+	"pages":"1040",
+	"read":"2014-10-13",
+	"method":"audio",
+	"subjects":[
+		{"name":"fiction"},{"name":"fantasy"}
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0553801473/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0553801473&linkCode=as2&tag=doonthwe-20&linkId=3REAWI3QRORSCYMS"
+		}, {
+			"title":"Wikipedia",
+			"link":"http://en.wikipedia.org/wiki/A_Dance_with_Dragons"
+		}, {
+			"title":"audio book",
+			"link":"http://www.randomhouse.com/audio/catalog/display.php?isbn=9780739375983"
+		}
+	],
+	"rating":"5",
+	"description":"Book 5 of A Song Of Ice And Fire was by far my favorite of the series. I can't wait until book 6 comes out, until then it is back to This American Life during my commutes."
 }];
