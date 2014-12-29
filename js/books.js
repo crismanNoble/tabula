@@ -1,4 +1,3 @@
-// to record: 11/25 asoiaf book 5
 var bookData = [
 {
 	"title":{
@@ -1626,4 +1625,45 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"Book 5 of A Song Of Ice And Fire was by far my favorite of the series. I can't wait until book 6 comes out, until then it is back to This American Life during my commutes."
+},{
+	"title":{
+		"name":"Our National Parks",
+		"link":"http://shop.anseladams.com/Our_National_Parks_p/15441005-u.htm"
+	},
+	"author":{
+		"name":"Ansel Adams",
+		"link":"http://www.anseladams.com/"
+	},
+	"publisher":{
+		"name":"Little, Brown and Company",
+		"link":"http://www.littlebrown.com/"
+	},
+	"year":"1992",
+	"cover":"./covers/onp.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0821219102"
+		}
+	],
+	"pages":"128",
+	"read":"2014-12-29",
+	"method":"paperback",
+	"subjects":[
+		{"name":"nature"},{"name":"conservancy"},{"name":"environmentalism"}
+	],
+	"links":[
+		{
+			"title":"Ansel Adams Gallery",
+			"link":"http://shop.anseladams.com/Our_National_Parks_p/15441005-u.htm"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Ansel-Adams-Our-National-Parks/dp/0821219103"
+		}, {
+			"title":"Publisher",
+			"link":"http://www.hachettebookgroup.com/titles/william-a-turnage/ansel-adams-our-national-parks/9780821219102/"
+		}
+	],
+	"rating":"4",
+	"description":"A wonderful coffee table book, filled with Ansel Adams' stunning photographs and powerful essays."
 }];
