@@ -47,7 +47,7 @@ function doWork(){
 	$('.bookNavLink').click(function(event){
 		event.preventDefault();
 		var newBookNumber = parseInt($(this).attr('data-booknumber'));
-		
+
 		if(newBookNumber < 0 || newBookNumber == bookData.length) {
 			return false;
 		}
@@ -81,6 +81,8 @@ function createBullets(){
 		var bookTitle = bookData[i].title.name;
 		var dateRead = bookData[i].read;
 
+		var years = 3;
+
 		var yr = dateRead.split('-')[0];
 		var mo = dateRead.split('-')[1] - 1;
 		var da = dateRead.split('-')[2];
@@ -89,7 +91,7 @@ function createBullets(){
 		var date = new Date(yr,mo,da);
 
 		var diff = Math.floor((date - start )/(1000 * 60 * 60 * 24));
-		var percent = Math.floor(1000*diff/730)/10;
+		var percent = Math.floor(1000*diff/(365*years))/10;
 
 		percent = percent;
 
@@ -121,7 +123,7 @@ function createBook(number){
 	clearBook();
 
 	$('#currentCount').html(parseInt(number) + 1);
-	
+
 	updateLinks(number);
 
 	var source   = $("#book-template").html();
@@ -130,11 +132,11 @@ function createBook(number){
 	var html = template(thisBook);
 
 	$('.bookArea').html(html);
-	
+
 }
 
 function updateLinks(number) {
-	
+
 	if(bookNumber == 0) {
 		bookNumber = number;
 	}

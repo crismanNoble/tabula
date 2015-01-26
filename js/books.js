@@ -1648,7 +1648,7 @@ var bookData = [
 		}
 	],
 	"pages":"385",
-	"read":"2014-01-20",
+	"read":"2015-01-20",
 	"method":"audio",
 	"subjects":[
 		{"name":"fiction"},{"name":"sci-fi"},{"name":"martian"}
@@ -1663,7 +1663,7 @@ var bookData = [
 		},{
 			"tilte":"Publisher",
 			"link":"http://www.randomhouse.com/book/234102/the-martian-by-andy-weir"
-		} {
+		}, {
 			"title":"audio book",
 			"link":"http://www.amazon.com/The-Martian-Andy-Weir/dp/1491526513/"
 		}
