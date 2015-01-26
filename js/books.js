@@ -1626,4 +1626,48 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"Book 5 of A Song Of Ice And Fire was by far my favorite of the series. I can't wait until book 6 comes out, until then it is back to This American Life during my commutes."
+},{
+	"title":{
+		"name":"The Martian",
+		"link":"http://andyweirauthor.com/books/the-martian-hc"
+	},
+	"author":{
+		"name":"Andy Weir",
+		"link":"http://andyweirauthor.com/"
+	},
+	"publisher":{
+		"name":"Crown Publishing Group",
+		"link":"http://crownpublishing.com/"
+	},
+	"year":"2014",
+	"cover":"./covers/themartian.jpg",
+	"numbers":[
+		{
+			"name":"ISBN13",
+			"number":"978-0-553-41802-6"
+		}
+	],
+	"pages":"385",
+	"read":"2014-01-20",
+	"method":"audio",
+	"subjects":[
+		{"name":"fiction"},{"name":"sci-fi"},{"name":"martian"}
+	],
+	"links":[
+		{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/The-Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA"
+		}, {
+			"title":"Wikipedia",
+			"link":"https://en.wikipedia.org/wiki/The_Martian_(Weir_novel)"
+		},{
+			"tilte":"Publisher",
+			"link":"http://www.randomhouse.com/book/234102/the-martian-by-andy-weir"
+		} {
+			"title":"audio book",
+			"link":"http://www.amazon.com/The-Martian-Andy-Weir/dp/1491526513/"
+		}
+	],
+	"rating":"5",
+	"description":"Andy Weir's blog turned book turned Matt Damon feature film is amazing. I could not stop listening as the poor guy left on Mars stuggles against the odds to survive. Despite that synopsys the book ends up being hilarious and inspiring."
 }];
