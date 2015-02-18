@@ -1710,4 +1710,42 @@ var bookData = [
 	],
 	"rating":"4",
 	"description":"A wonderful coffee table book, filled with Ansel Adams' stunning photographs and powerful essays."
+},{
+	"title":{
+		"name":"Beautiful Trouble",
+		"link":"http://beautifultrouble.org/"
+	},
+	"author":{
+		"name":"Andrew Boyd",
+		"link":"http://andrewboyd.com/"
+	},
+	"publisher":{
+		"name":"O/R Books",
+		"link":"http://www.orbooks.com/"
+	},
+	"year":"2012",
+	"cover":"./covers/trouble.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"1935928570"
+		}
+	],
+	"pages":"460",
+	"read":"2015-02-07",
+	"method":"paperback",
+	"subjects":[
+		{"name":"activisim"},{"name":"opression"}
+	],
+	"links":[
+		{
+			"title":"Book Website, Read Online",
+			"link":"http://beautifultrouble.org/"
+		},{
+			"title":"Publisher",
+			"link":"http://www.orbooks.com/catalog/beautiful-trouble/"
+		}
+	],
+	"rating":"4",
+	"description":"This was a long one, but easy to read in short spurts. A collection of techiniques and tactics to aid in resistance of the machinery of opression."
 }];
