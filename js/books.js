@@ -1748,4 +1748,81 @@ var bookData = [
 	],
 	"rating":"4",
 	"description":"This was a long one, but easy to read in short spurts. A collection of techiniques and tactics to aid in resistance of the machinery of opression."
-}];
+},{
+	"title":{
+		"name":"The Hitch Hiker's Guide to the Galaxy",
+		"link":"http://www.douglasadams.com/creations/0345391802.html"
+	},
+	"author":{
+		"name":"Douglas Adams",
+		"link":"http://www.douglasadams.com/"
+	},
+	"publisher":{
+		"name":"Pan Books",
+		"link":"http://www.panmacmillan.com/"
+	},
+	"year":"1979",
+	"cover":"./covers/hhgttg.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0-330-25864-8"
+		}
+	],
+	"pages":"216",
+	"read":"2015-02-25",
+	"method":"audio",
+	"subjects":[
+		{"name":"sci-fi"},{"name":"comedy"},{"name":"universe"}
+	],
+	"links":[
+		{
+			"title":"Wikipedia",
+			"link":"https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/gp/product/0345391802/ref=x_gr_w_bb?ie=UTF8&tag=httpwwwgoodco-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0345391802&SubscriptionId=1MGPYB6YW3HWK55XCGG2"
+		}
+	],
+	"rating":"5",
+	"description":"Loved Douglas Adams' reading of his own classic. Hilarious and witty, this short book will get you hooked on Adams."
+ },{
+	"title":{
+		"name":"The Restaurant at the End of the Universe",
+		"link":"http://www.douglasadams.com/creations/0345391810.html"
+	},
+	"author":{
+		"name":"Douglas Adams",
+		"link":"http://www.douglasadams.com/"
+	},
+	"publisher":{
+		"name":"Pan Books",
+		"link":"http://www.panmacmillan.com/"
+	},
+	"year":"1980",
+	"cover":"./covers/RestaurantAtTheEndOfTheUniverse.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0-345-39181-0"
+		}
+	],
+	"pages":"208",
+	"read":"2015-03-05",
+	"method":"audio",
+	"subjects":[
+		{"name":"sci-fi"},{"name":"comedy"},{"name":"universe"}
+	],
+	"links":[
+		{
+			"title":"Wikipedia",
+			"link":"https://en.wikipedia.org/wiki/The_Restaurant_at_the_End_of_the_Universe"
+		},{
+			"title":"Amazon",
+			"link":"http://www.amazon.com/Restaurant-at-End-Universe/dp/0345391810/ref=sr_1_1?s=books&ie=UTF8&qid=1425906314&sr=1-1&keywords=restaurant+at+the+end+of+the+universe"
+		}
+	],
+	"rating":"5",
+	"description":"Arthur Dent and crew continue to aimless wonder the galexy, looking for something Zahpod can't quite recall."
+ }
+];
