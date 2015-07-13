@@ -1824,5 +1824,40 @@ var bookData = [
 	],
 	"rating":"5",
 	"description":"Arthur Dent and crew continue to aimless wonder the galexy, looking for something Zahpod can't quite recall."
+ },{
+	"title":{
+		"name":"Little Brother",
+		"link":"http://craphound.com/category/littlebrother/"
+	},
+	"author":{
+		"name":"Cory Doctorow",
+		"link":"http://craphound.com/"
+	},
+	"publisher":{
+		"name":"Tor Books",
+		"link":"http://us.macmillan.com/torforge"
+	},
+	"year":"2010",
+	"cover":"./covers/littlebrother.jpg",
+	"numbers":[
+		{
+			"name":"ISBN10",
+			"number":"0765323117"
+		}
+	],
+	"pages":"416",
+	"read":"2015-05-25",
+	"method":"audio",
+	"subjects":[
+		{"name":"dystopian"},{"name":"future"}
+	],
+	"links":[
+		{
+			"title":"Author's Website (Free Downloads)",
+			"link":"http://craphound.com/category/littlebrother/"
+		}
+	],
+	"rating":"4",
+	"description":"w1nst0n had no idea that he was not living the future after all. Some fun ideas and useful tools for subversion, but a definitely a teen-read."
  }
 ];
