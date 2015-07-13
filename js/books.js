@@ -1823,7 +1823,7 @@ var bookData = [
 		}
 	],
 	"rating":"5",
-	"description":"Arthur Dent and crew continue to aimless wonder the galexy, looking for something Zahpod can't quite recall."
+	"description":"Arthur Dent and crew continue to aimlessly wonder the galaxy, looking for something Zahpod can't quite recall."
  },{
 	"title":{
 		"name":"Little Brother",
