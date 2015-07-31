@@ -879,11 +879,11 @@ var bookData = [
   "description":"Who would have thought that an entire book could be devoted to web-form design. In Luke W's hands we somehow have an engaging book that will make you seriously think differently building web-forms."
 },{
   "title":{
-    "name":"Ready Plaer One",
+    "name":"Ready Player One",
     "link":"http://readyplayerone.com/"
   },
   "author":{
-    "name":"Ernest CLine",
+    "name":"Ernest Cline",
     "link":"http://www.ernestcline.com/"
   },
   "publisher":{
@@ -1865,7 +1865,7 @@ var bookData = [
     "link":"http://readyplayerone.com/"
   },
   "author":{
-    "name":"Ernest CLine",
+    "name":"Ernest Cline",
     "link":"http://armadabook.com/"
   },
   "publisher":{
