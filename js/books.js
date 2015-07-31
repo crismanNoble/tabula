@@ -1872,7 +1872,7 @@ var bookData = [
     "name":"Broadway Books",
     "link":"http://crownpublishing.com/imprint/broadway-books/"
   },
-  "year":"2012",
+  "year":"2015",
   "cover":"./covers/armada.jpg",
   "numbers":[
     {
@@ -1883,7 +1883,7 @@ var bookData = [
   "pages":"368",
   "read":"2015-06-24",
   "subjects":[
-    {"name":"Fiction", "sci-fi"}
+    {"name":"Fiction"},{"name":"sci-fi"}
   ],
   "links":[
     {
