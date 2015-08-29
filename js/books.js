@@ -1903,5 +1903,39 @@ var bookData = [
   ],
   "rating":"4",
   "description":"Ender's Game crossed with Ready Player One. This book is a win. Be sure to check out the Tumblr for visual gems and book tie ins."
+},{
+  "title":{
+    "name":"Rework",
+    "link":"http://37signals.com/rework/"
+  },
+  "author":{
+    "name":"Jason Fried, DHH",
+    "link":"http://37signals.com/"
+  },
+  "publisher":{
+    "name":"Crown Business",
+    "link":"http://crownpublishing.com/imprint/crown-business/"
+  },
+  "year":"2010",
+  "cover":"./covers/rework.png",
+  "numbers":[
+    {
+      "name":"ISBN10",
+      "number":"0307463745"
+    }
+  ],
+  "pages":"288",
+  "read":"2015-08-29",
+  "subjects":[
+    {"name":"Business"}
+  ],
+  "links":[
+    {
+      "title":"Amazon",
+      "link":"http://amzn.to/1KTXyzw"
+    }
+  ],
+  "rating":"4",
+  "description":"A lot of great insight from the creators of Basecamp, how to grow at a maintainable pace and actionable steps to build a company that lasts."
 }
 ];
